@@ -1,58 +1,30 @@
 # Ticket
 
-En este caso vamos a ver como hacer un TK a un cliente que retira todos los productos y que abona en el momento. 
-👉🏽 Vamos desde desde Ventas - Comprobantes - Tickets
+En este caso vamos a ver como hacer un TK a un cliente que retira todos los productos y que abona en el momento. 👉🏽 Vamos desde desde Ventas - Comprobantes - Tickets
 
-![Captura de pantalla 2026-03-30 160811.png](../../imagenes/Captura_de_pantalla_2026-03-30_160811.png)
+* Se ingresa el codigo del cliente o con F6 lo buscamos por nombre.
+* Nos va a salir este cartel, que nos avisa que la cuenta corriente del cliente esta ok.
 
-- Se ingresa el codigo del cliente o con F6 lo buscamos por nombre.
+👉🏽 Ponemos nuestro numero de vendedor. Con ENTER confirmamos.
 
-![image.png](../../imagenes/image%2076.png)
+* Nos va a abrir esta pagina, aca vamos a cargar los productos por su codigo.
 
-- Nos va a salir este cartel, que nos avisa que la cuenta corriente del cliente esta ok.
+💡Si no nos acordamos el codigo del producto se puede escanear con el lector el codigo de barras o con F6 buscarlo por detalle.
 
-![image.png](../../imagenes/image%2077.png)
+💡 En el tema del descuento hay dos maneras, o se agrega individualmente cuando cargamos la linea del producto o, con SHIFT + F10 agregamos el descuento a todos los productos cargados por igual.
 
-👉🏽 Ponemos nuestro numero de vendedor. Con ENTER confirmamos. 
+⚠️ Una vez que le pusimos ENTER al producto ya no se puede modificar. Hay que borrarlo y volver a cargarlo para ponerle el descuento o la cantidad que le corresponde. Para borrar nos paramos sobre el producto y tocamos F5.
 
-![image.png](../../imagenes/image%2078.png)
+* Una vez cargados todos los productos con las cantidades y los descuentos correspondientes vamos a ir a la solapa de VALORES. Podemos seleccionarlo con el mouse o directamente con ESCAPE.
+* Sobre N\_bco con F6 buscamos el método de pago, se puede agregar mas de uno.
 
-- Nos va a abrir esta pagina, aca vamos a cargar los productos por su codigo.
+📌 Ejemplo: Un cliente quiere abonar una parte en efectivo y otra con Tarjeta de credito Amex.
 
-💡Si no nos acordamos el codigo del producto se puede escanear con el lector el codigo de barras o con F6 buscarlo por detalle. 
+1. Cargamos la Tarjeta con la que el cliente abona, una vez que aceptamos nos abre un cuadro arriba a la derecha. Ahi tenemos que poner la cantidad de cuotas y el numero de lote que figura en el cupon de pago de la tarjeta.
+2. Aceptamos y vamos a cargar en N\_cheque el numero del cupon y el importe abonado
 
-![image.png](../../imagenes/image%2079.png)
+⚠️ Es importante fijarse bien el importe exacto abonado y el numero de lote y cupon.
 
-💡 En el tema del descuento hay dos maneras, o se agrega individualmente cuando cargamos la linea del producto o, con SHIFT + F10 agregamos el descuento a todos los productos cargados por igual. 
-
-![image.png](../../imagenes/image%2080.png)
-
-⚠️ Una vez que le pusimos ENTER al producto ya no se puede modificar. Hay que borrarlo y volver a cargarlo para ponerle el descuento o la cantidad que le corresponde. Para borrar nos paramos sobre el producto y tocamos F5. 
-
-- Una vez cargados todos los productos con las cantidades y los descuentos correspondientes vamos a ir a la solapa de VALORES. Podemos seleccionarlo con el mouse o directamente con ESCAPE.
-
-![Captura de pantalla 2026-03-31 090032.png](../../imagenes/Captura_de_pantalla_2026-03-31_090032.png)
-
-![image.png](../../imagenes/image%2081.png)
-
-- Sobre N_bco con F6 buscamos el método de pago, se puede agregar mas de uno.
-
-![image.png](../../imagenes/7661b828-1228-43e3-8bb3-78ab10e6ab48.png)
-
-📌 Ejemplo: Un cliente quiere abonar una parte en efectivo y otra con Tarjeta de credito Amex. 
-
-1. Cargamos la Tarjeta con la que el cliente abona, una vez que aceptamos nos abre un cuadro arriba a la derecha. Ahi tenemos que poner la cantidad de cuotas y el numero de lote que figura en el cupon de pago de la tarjeta.  
-
-![image.png](../../imagenes/image%2082.png)
-
-1. Aceptamos y vamos a cargar en N_cheque el numero del cupon y el importe abonado
-
-⚠️ Es importante fijarse bien el importe exacto abonado y el numero de lote y cupon. 
-
-![image.png](../../imagenes/image%2083.png)
-
-1. El resto el cliente en este caso lo abona en efectivo. una vez cargado todos los medios de pago revisar que hayan quedado bien los importes. 
+1. El resto el cliente en este caso lo abona en efectivo. una vez cargado todos los medios de pago revisar que hayan quedado bien los importes.
 
 ✅ Con ESCAPE lo confirmamos y listo!
-
-![image.png](../../imagenes/image%2084.png)

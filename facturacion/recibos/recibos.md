@@ -1,49 +1,27 @@
 # Recibos
 
-Los vamos a usar cuando le queremos dar de pago a TK/Facturas que estén en cuenta corriente o para dejar plata a favor del cliente por alguna diferencia en pagos. 
+Los vamos a usar cuando le queremos dar de pago a TK/Facturas que estén en cuenta corriente o para dejar plata a favor del cliente por alguna diferencia en pagos.
 
-1. Primero vamos desde Ventas - Comprobantes -  Recibos
-
-![image.png](../../imagenes/image%2096.png)
-
-1. Abrimos el ítem y nos va a llevar a esta pantalla en donde cargando el cliente y el numero de vendedor. 
-
-![image.png](../../imagenes/image%2097.png)
+1. Primero vamos desde Ventas - Comprobantes - Recibos
+2. Abrimos el ítem y nos va a llevar a esta pantalla en donde cargando el cliente y el numero de vendedor.
 
 👉🏽 En este punto vamos a tener estas 4 opciones. Las únicas que vamos a usar en este caso son las dos primeras. Vamos a verlas en detalle.
 
-- 📌 COMPROBANTES VS: En este ítem el sistema nos permite tomar facturas que un cliente tenga en deuda y darles de pago.
-    
-    1. Con ESCAPE nos va a abrir este cuadro de observaciones, se puede agregar algun detalle necesario. 
-    
-    ![image.png](../../imagenes/image%2098.png)
-    
-    1. Luego nos va a abrir el listado con todos los comprobantes en cuenta. EN este caso hay solo uno pero si hubieran mas seleccionamos solo los que queremos tomar. Se seleccionan con la Barra Espaciadora. 
-    
-    💡En el caso que un cliente tenga un descuento pactado fijo o por el medio de pago que eligió se puede agregar en la columna de Dto. 
-    
-    ⚠️ Siempre antes de poner el descuento en el recibo revisar bien cada uno de los TK que ya no tenga asi no se solapan y se le hace de mas al cliente. 
-    
-    ![image.png](../../imagenes/image%2099.png)
-    
+*   📌 COMPROBANTES VS: En este ítem el sistema nos permite tomar facturas que un cliente tenga en deuda y darles de pago.
+
+    1. Con ESCAPE nos va a abrir este cuadro de observaciones, se puede agregar algun detalle necesario.
+    2. Luego nos va a abrir el listado con todos los comprobantes en cuenta. EN este caso hay solo uno pero si hubieran mas seleccionamos solo los que queremos tomar. Se seleccionan con la Barra Espaciadora.
+
+    💡En el caso que un cliente tenga un descuento pactado fijo o por el medio de pago que eligió se puede agregar en la columna de Dto.
+
+    ⚠️ Siempre antes de poner el descuento en el recibo revisar bien cada uno de los TK que ya no tenga asi no se solapan y se le hace de mas al cliente.
+
     1. Con ESCAPE nos va a llevar a ingresar el o los medios de pago que eligió el cliente
-        
-        ![image.png](../../imagenes/image%20100.png)
-        
-    2. Con ESCAPE nos lleva a la parte donde debemos registrar las retenciones en el caso de que le corresponda al cliente (lo tienen que traer o mandar ellos para poder registrarlo). Sobre la retención que corresponda hay que agregar la fecha, el numero del certificado y el importe. 
-        
-        ![image.png](../../imagenes/image%20101.png)
-        
-        ![image.png](../../imagenes/image%20102.png)
-        
-        ✅ Pregunta si queremos confirmar el recibo y listo! 
-        
-- 📌 PAGO A IMPUTAR: En este caso vamos a seguir los mismos pasos que en COMPROBANTES VS. solo que no nos va a dar la opción de relacionar con los TK en cuenta corriente.
-    
-    1. Cuando lo seleccionamos nos pregunta si queremos relacionar con una nota de venta, le damos ESCAPE. 
-    
-    ![image.png](../../imagenes/image%20103.png)
-    
-    1. Nos abre el cuadro de las observaciones, luego para registrar los medios de pago y las retenciones. 
-        
-        ✅ Le damos ESCAPE, confirmamos el recibo y listo!
+    2.  Con ESCAPE nos lleva a la parte donde debemos registrar las retenciones en el caso de que le corresponda al cliente (lo tienen que traer o mandar ellos para poder registrarlo). Sobre la retención que corresponda hay que agregar la fecha, el numero del certificado y el importe.
+
+        ✅ Pregunta si queremos confirmar el recibo y listo!
+* 📌 PAGO A IMPUTAR: En este caso vamos a seguir los mismos pasos que en COMPROBANTES VS. solo que no nos va a dar la opción de relacionar con los TK en cuenta corriente.
+  1. Cuando lo seleccionamos nos pregunta si queremos relacionar con una nota de venta, le damos ESCAPE.
+  2.  Nos abre el cuadro de las observaciones, luego para registrar los medios de pago y las retenciones.
+
+      ✅ Le damos ESCAPE, confirmamos el recibo y listo!
