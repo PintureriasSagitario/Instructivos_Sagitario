@@ -1,1 +1,0 @@
-# Recepción de locales
