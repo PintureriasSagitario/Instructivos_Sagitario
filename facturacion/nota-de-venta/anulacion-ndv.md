@@ -1,4 +1,4 @@
-# 📌 Cancelación de NDV (Guía completa)
+# ❌ Cancelación de Nota de Venta (Completo)
 
 <h3 align="center"><a href="https://pintureriassagitario.github.io/Instructivos_Sagitario/widget-cancelacion-ndv.html">Usá este link de asistente interactivo para saber exactamente qué pasos seguir según el estado de la nota de venta 🔗.</a></h3>
 

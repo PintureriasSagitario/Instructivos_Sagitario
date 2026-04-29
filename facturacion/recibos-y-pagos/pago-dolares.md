@@ -5,7 +5,7 @@ Vamos a ver como registrar desde TK o desde Recibos un pago con dólares.
 * Primero tenemos que ver la cotización del día del dólar, arriba de todo vamos a buscar este icono.
 *   En un Recibo
 
-    Para tomar dólares en un recibo, hay que hacer todos los pasos según vimos en el instructivo de [**RECIBOS.**](Recibos%20334b06ef759280be8110efbc00b72e7e.md)
+    Para tomar dólares en un recibo, hay que hacer todos los pasos según vimos en el instructivo de [**RECIBOS.**](../recibos/Recibos%20334b06ef759280be8110efbc00b72e7e.md)
 
     👉🏽 Una vez que llegamos a la parte de pago con F6 buscamos dólares o ponemos el codigo 888.
 
@@ -20,7 +20,7 @@ Vamos a ver como registrar desde TK o desde Recibos un pago con dólares.
     ✅ Confirmamos el recibo y listo!
 *   En un TK
 
-    Para dar de pago un TK con dólares hay que seguir todos los pasos de como cargar un [Ticket](Ticket%20333b06ef759280398cb6d2611b25f830.md).
+    Para dar de pago un TK con dólares hay que seguir todos los pasos de como cargar un [Ticket](../recibos/Ticket%20333b06ef759280398cb6d2611b25f830.md).
 
     👉🏽 En la parte de ingreso de pagos seleccionamos Dólares en N\_bco y en importe poner la cantidad de dólares que nos dio el cliente.
 

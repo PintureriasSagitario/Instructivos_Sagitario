@@ -1,5 +1,5 @@
 ---
-description: Instructivos de Presupuestos
+description: 'Instructivos de Presupuestos:'
 ---
 
 # Presupuestos

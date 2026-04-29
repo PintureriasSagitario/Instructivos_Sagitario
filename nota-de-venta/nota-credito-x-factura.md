@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # 📌 Nota de Crédito x Nro de Factura
 
 Este ítem se usa cuando hicimos la factura pero **NO** se despacho
@@ -18,4 +22,4 @@ Vamos a ir desde Ventas - Comprobantes - Notas de Crédito x nro de factura
 
 ✅ Y listo queda grabada la nota de crédito en la historia del cliente.
 
-💡 Si se cancela la Nota de venta en su totalidad hay que eliminarla desde **Bajas.** Si se cancelan algunos productos, se cambia la cantidad o se elimina el producto hay que [**Modificar**](facturacion/Modificaci%C3%B3n%20NDV%20343b06ef759280fab9b8eee018b4b5d5.md) la NDV
+💡 Si se cancela la Nota de venta en su totalidad hay que eliminarla desde **Bajas.** Si se cancelan algunos productos, se cambia la cantidad o se elimina el producto hay que [**Modificar**](../facturacion/Modificaci%C3%B3n%20NDV%20343b06ef759280fab9b8eee018b4b5d5.md) la NDV

@@ -1,4 +1,8 @@
-# Consultar Estado de NDV
+---
+description: Consuntamos si la Nota de Venta - Esta despachada / Facturada
+---
+
+# Consultar Estado
 
 📌
 

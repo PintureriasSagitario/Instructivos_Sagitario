@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # 📌 Devolución con Despacho (Con Remito)
 
 Este ítem se usa cuando se hizo una factura desde una nota de venta y **SI** se despacho
