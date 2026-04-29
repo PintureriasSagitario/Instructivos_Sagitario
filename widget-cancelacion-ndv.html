@@ -11,8 +11,8 @@
   .bc-item { font-size:12px; color:#666; padding:3px 10px; border-radius:12px; background:#f0f0f0; }
   .bc-sep { color:#aaa; font-size:12px; }
   .question { font-size:16px; font-weight:600; color:#1a1a1a; margin-bottom:1rem; line-height:1.4; }
-  .note { font-size:13px; color:#92400e; background:#fffbeb; border-left:3px solid #f59e0b; padding:10px 14px; border-radius:0 8px 8px 0; margin-bottom:1rem; line-height:1.6; }
-  .warn-note { font-size:13px; color:#991b1b; background:#fef2f2; border-left:3px solid #ef4444; padding:10px 14px; border-radius:0 8px 8px 0; margin-bottom:1rem; line-height:1.6; }
+  .note { font-size:13px; color:#92400e; background:#fffbeb; border-left:3px solid #f59e0b; padding:10px 14px; border-radius:0 8px 8px 0; margin-bottom:1rem; line-height:1.6; white-space:pre-line; }
+  .warn-note { font-size:13px; color:#991b1b; background:#fef2f2; border-left:3px solid #ef4444; padding:10px 14px; border-radius:0 8px 8px 0; margin-bottom:1rem; line-height:1.6; white-space:pre-line; }
   .tip-note { font-size:13px; color:#1e40af; background:#eff6ff; border-left:3px solid #3b82f6; padding:10px 14px; border-radius:0 8px 8px 0; margin-bottom:1rem; line-height:1.6; }
   .opts { display:flex; flex-direction:column; gap:10px; }
   .opt { text-align:left; padding:14px 16px; border:1.5px solid #e0e0e0; border-radius:10px; background:#fff; color:#1a1a1a; font-size:14px; cursor:pointer; font-family:inherit; transition:border-color .15s, background .15s; width:100%; }
@@ -24,6 +24,9 @@
   .path { font-weight:600; color:#166534; font-family:monospace; font-size:12px; }
   .warn { font-size:12px; color:#92400e; background:#fffbeb; padding:8px 12px; border-radius:8px; margin-top:10px; line-height:1.5; }
   .tip { font-size:12px; color:#1e40af; background:#eff6ff; padding:8px 12px; border-radius:8px; margin-top:10px; line-height:1.5; }
+  .link-row { margin-top:14px; padding-top:14px; border-top:1px solid #dcfce7; }
+  .link-btn { display:inline-flex; align-items:center; gap:6px; padding:10px 16px; background:#166534; color:#fff; border-radius:8px; font-size:13px; font-weight:500; text-decoration:none; transition:background .15s; }
+  .link-btn:hover { background:#14532d; }
   .back-btn { margin-top:1rem; padding:8px 16px; background:transparent; border:1.5px solid #e0e0e0; border-radius:8px; font-size:13px; cursor:pointer; color:#666; font-family:inherit; transition:all .15s; }
   .back-btn:hover { color:#1a1a1a; border-color:#aaa; }
 </style>
@@ -31,8 +34,8 @@
 <body>
 <div id="bc" class="bc"></div>
 <div id="screen"></div>
-
 <script>
+const BASE = 'https://pinturerias-sagitario.gitbook.io/instructivos_sagitario';
 const S = {
   start: {
     q: '¿Cuál es el estado de la nota de venta?',
@@ -51,11 +54,21 @@ const S = {
     ]
   },
   f_nd: {
-    q: '¿Se cancela en su totalidad o solo algunos productos?',
-    note: '⚠️ PRIMERO hacé la Nota de Crédito x Nro de Factura\nRuta: Ventas → Comprobantes → Notas de Crédito x nro. Factura\nCuando el sistema pregunte "¿Actualiza nota de venta?" → ingresá una S',
+    q: 'Paso 1 — Hacé la Nota de Crédito x Nro de Factura',
+    note: '💡 Se usa este ítem porque NO mueve el stock.',
+    steps_preview: [
+      'Ir a: <span class="path">Ventas → Comprobantes → Notas de Crédito x nro. Factura</span>',
+      'Ingresá el número de factura o buscá el cliente con <b>F6</b> y seleccioná la factura.',
+      'Cuando el sistema pregunta <b>"¿Actualiza nota de venta?"</b> → ingresá una <b>S</b>',
+      'Se abren todos los productos facturados. Los que <b>NO</b> vas a anular, ponelos en <b>0</b>.',
+      'Con <b>ESCAPE</b> confirmás la nota de crédito.<br>⚠️ <b>Tilde verde</b> = NC total facturas A | <b>Cruz roja</b> = facturas B o NC parcial de A',
+      '✅ Queda grabada la nota de crédito. Ahora continuá con el paso 2 →',
+    ],
+    link: { label: '📖 Ver instructivo completo de Nota de Crédito x Nro de Factura', url: `${BASE}/facturacion/nota-de-venta/nota-credito-x-factura` },
+    q2: 'Paso 2 — ¿La cancelación fue total o parcial?',
     opts: [
-      { label: 'Cancelación total', to: 'r_baja' },
-      { label: 'Solo algunos productos', to: 'r_mod_f' },
+      { label: 'Cancelación total → eliminar la NDV', to: 'r_baja' },
+      { label: 'Solo algunos productos → modificar la NDV', to: 'r_mod' },
     ]
   },
   f_d: {
@@ -68,56 +81,60 @@ const S = {
   },
   r_baja: {
     result: {
-      title: 'Dar de baja la nota de venta',
+      title: '📄 Dar de baja la nota de venta',
       steps: [
         ['Ir a:', 'Ventas → Pedidos → Bajas'],
         ['Filtrar por cliente o número de nota de venta', null],
         ['Pararse sobre la NDV y tocar el botón superior derecho', null],
-        ['Dar ESCAPE para confirmar la eliminación', null],
-      ]
+        ['Dar ESCAPE para confirmar la eliminación ✅', null],
+      ],
+      link: { label: '📖 Ver instructivo completo de Bajas', url: `${BASE}/facturacion/nota-de-venta/bajas` }
     }
   },
   r_mod: {
     result: {
-      title: 'Modificar la nota de venta',
+      title: '✏️ Modificar la nota de venta',
       steps: [
         ['Ir a:', 'Ventas → Pedidos → Modificaciones'],
         ['Buscar el cliente y seleccionar la nota de venta', null],
         ['Eliminar los productos cancelados o modificar la cantidad', null],
-        ['Agregar observación si es necesario y confirmar', null],
+        ['Agregar observación si es necesario y confirmar ✅', null],
       ],
-      tip: '💡 La NDV modificada queda en la cola de impresión.'
+      tip: '💡 La NDV modificada queda en la cola de impresión.',
+      link: { label: '📖 Ver instructivo completo de Modificación NDV', url: `${BASE}/facturacion/nota-de-venta/modificacion-ndv` }
     }
   },
   r_mod_f: {
     result: {
-      title: 'Modificar la nota de venta',
+      title: '✏️ Modificar la nota de venta',
       steps: [
         ['Ya hiciste la Nota de Crédito (Actualiza NDV = S). Ahora ir a:', 'Ventas → Pedidos → Modificaciones'],
         ['Buscar el cliente y seleccionar la NDV', null],
         ['Cambiar la cantidad o eliminar el producto cancelado', null],
-        ['Confirmar la modificación', null],
+        ['Confirmar la modificación ✅', null],
       ],
-      tip: '💡 La NDV modificada queda en la cola de impresión.'
+      tip: '💡 La NDV modificada queda en la cola de impresión.',
+      link: { label: '📖 Ver instructivo completo de Nota de Crédito x Nro de Factura', url: `${BASE}/facturacion/nota-de-venta/nota-credito-x-factura` }
     }
   },
   r_dev: {
     result: {
-      title: 'Hacer la devolución (Con Remito)',
+      title: '↩️ Hacer la devolución (Con Remito)',
       steps: [
         ['Ir a:', 'Ventas → Comprobantes → Devoluciones'],
         ['Seleccionar el cliente y la lista de precios de la NDV', null],
         ['Completar la info y en "Actualiza nota de venta" poner: N', null],
-        ['En la ventana de productos usar CTRL+B para traer las facturas (NO cargar manualmente)', null],
+        ['En la ventana de productos usar <b>CTRL+B</b> para traer las facturas. <span style="background:#fef9c3;padding:2px 6px;border-radius:4px;font-weight:600;color:#854d0e;">⚠️ NO cargar los productos manualmente</span>', null],
         ['Al dar ESCAPE asociar la NC con la factura correspondiente', null],
         ['✅ Tilde verde = NC total facturas A | ❌ Cruz roja = facturas B o NC parcial de A', null],
       ],
-      warn: '⚠️ Debe realizarse en la sucursal donde el cliente compró.'
+      warn: '⚠️ Debe realizarse en la sucursal donde el cliente compró.',
+      link: { label: '📖 Ver instructivo completo de Devolución con Despacho', url: `${BASE}/facturacion/nota-de-venta/devolucion-con-despacho` }
     }
   },
   r_ticket: {
     result: {
-      title: 'Hacer un ticket de cambio',
+      title: '🔄 Hacer un ticket de cambio',
       steps: [
         ['Ir a:', 'Ventas → Comprobantes → Tickets'],
         ['Buscar el cliente e ingresar número de vendedor', null],
@@ -126,14 +143,13 @@ const S = {
         ['Ir a VALORES (ESCAPE) y registrar el medio de pago por la diferencia', null],
         ['Confirmar con ESCAPE ✅', null],
       ],
-      warn: '⚠️ El producto nuevo debe ser de IGUAL o MAYOR valor que el devuelto.'
+      warn: '⚠️ El producto nuevo debe ser de IGUAL o MAYOR valor que el devuelto.',
+      link: { label: '📖 Ver instructivo completo de Ticket', url: `${BASE}/facturacion/tickets/ticket` }
     }
   }
 };
-
 const BC = { start:'Estado NDV', nf:'No facturada', f_nd:'Facturada s/despacho', f_d:'Facturada y despachada' };
 let stack=[], curr='start';
-
 function render(){
   const step=S[curr];
   const bcEl=document.getElementById('bc');
@@ -142,15 +158,24 @@ function render(){
   const scr=document.getElementById('screen');
   if(step.result){
     const r=step.result;
-    scr.innerHTML=`<div class="result-card"><div class="result-title">✓ ${r.title}</div>${r.steps.map(([t,p],i)=>`<div class="step-row"><span class="step-num">${i+1}</span><span>${t}${p?` <span class="path">${p}</span>`:''}</span></div>`).join('')}${r.warn?`<div class="warn">${r.warn}</div>`:''}${r.tip?`<div class="tip">${r.tip}</div>`:''}</div><button class="back-btn" onclick="reset()">↩ Consultar otro caso</button>`;
+    scr.innerHTML=`<div class="result-card"><div class="result-title">${r.title}</div>${r.steps.map(([t,p],i)=>`<div class="step-row"><span class="step-num">${i+1}</span><span>${t}${p?` <span class="path">${p}</span>`:''}</span></div>`).join('')}${r.warn?`<div class="warn">${r.warn}</div>`:''}${r.tip?`<div class="tip">${r.tip}</div>`:''}${r.link?`<div class="link-row"><a class="link-btn" href="${r.link.url}" target="_blank">${r.link.label} →</a></div>`:''}</div><button class="back-btn" onclick="reset()">↩ Consultar otro caso</button>`;
+  } else if(step.steps_preview) {
+    // Special state: show steps first, then show follow-up question
+    scr.innerHTML=`
+      ${step.note?`<div class="tip-note">${step.note}</div>`:''}
+      <div class="question">${step.q}</div>
+      <div class="result-card" style="margin-bottom:1rem">
+        ${step.steps_preview.map((t,i)=>`<div class="step-row"><span class="step-num">${i+1}</span><span>${t}</span></div>`).join('')}
+        ${step.link?`<div class="link-row"><a class="link-btn" href="${step.link.url}" target="_blank">${step.link.label} →</a></div>`:''}
+      </div>
+      <div class="question">${step.q2}</div>
+      <div class="opts">${step.opts.map(o=>`<button class="opt" onclick="go('${o.to}')">${o.label}</button>`).join('')}</div>
+      ${stack.length?`<button class="back-btn" onclick="back()">← Volver</button>`:''}`;
   } else {
-    scr.innerHTML=`${step.warn?`<div class="warn-note">${step.warn}</div>`:''}${step.note?`<div class="note">${step.note}</div>`:''}${step.tip?`<div class="tip-note">${step.tip}</div>`:''}
-<div class="question">${step.q}</div><div class="opts">${step.opts.map(o=>`<button class="opt" onclick="go('${o.to}')">${o.label}</button>`).join('')}</div>${stack.length?`<button class="back-btn" onclick="back()">← Volver</button>`:''}`;
+    scr.innerHTML=`${step.warn?`<div class="warn-note">${step.warn}</div>`:''}${step.note?`<div class="note">${step.note}</div>`:''}${step.tip?`<div class="tip-note">${step.tip}</div>`:''}<div class="question">${step.q}</div><div class="opts">${step.opts.map(o=>`<button class="opt" onclick="go('${o.to}')">${o.label}</button>`).join('')}</div>${stack.length?`<button class="back-btn" onclick="back()">← Volver</button>`:''}`;
   }
-  // Notify parent of height for iframe resize
   if(window.parent) window.parent.postMessage({height: document.body.scrollHeight}, '*');
 }
-
 function go(n){stack.push(curr);curr=n;render();}
 function back(){curr=stack.pop();render();}
 function reset(){stack=[];curr='start';render();}
