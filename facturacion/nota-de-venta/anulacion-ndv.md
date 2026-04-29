@@ -6,4 +6,4 @@
 
 ***
 
-> 💡 **¿No sabés en qué estado está la nota de venta?** Consultá la **Trazabilidad NDV** desde el ícono superior de Presea → Notas de Venta → Trazabilidad. Filtrá por fecha, cliente y número de NDV.
+> 💡 **¿No sabés en qué estado está la nota de venta?** Consultá la [**Trazabilidad NDV**](trazabilidad-ndv.md) desde el ícono superior de Presea → Notas de Venta → Trazabilidad. Filtrá por fecha, cliente y número de NDV.
