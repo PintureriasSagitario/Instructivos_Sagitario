@@ -11,12 +11,19 @@
 * [Cuenta Corriente](clientes/cuenta-corriente.md)
 * [Imputación](clientes/imputacion.md)
 
-## Presupuestos
+## Facturación
 
-* [Ingreso de Presupuesto](facturacion/presupuestos/ingreso.md)
-* [Modificación de Presupuesto](facturacion/presupuestos/modificacion.md)
-* [Pasar Presupuesto a TK](facturacion/presupuestos/pasar-a-tk.md)
-* [Pasar Presupuesto a NDV](facturacion/presupuestos/pasar-a-ndv.md)
+* [Presupuestos](facturacion/presupuestos/README.md)
+  * [Ingreso de Presupuesto](facturacion/presupuestos/ingreso.md)
+  * [Modificación de Presupuesto](facturacion/presupuestos/modificacion.md)
+  * [Pasar Presupuesto a TK](facturacion/presupuestos/pasar-a-tk.md)
+  * [Pasar Presupuesto a NDV](facturacion/presupuestos/pasar-a-ndv.md)
+* [Tickets](facturacion/tickets.md)
+
+***
+
+* [📌 Nota de Crédito x Nro de Factura](nota-credito-x-factura.md)
+* [📌 Devolución con Despacho (Con Remito)](devolucion-con-despacho.md)
 
 ## Ticket
 
@@ -44,8 +51,6 @@
 * [Bajas](facturacion/nota-de-venta/bajas.md)
 * [Trazabilidad NDV](facturacion/nota-de-venta/trazabilidad-ndv.md)
 * [📌 Cancelación de NDV (Guía completa)](facturacion/nota-de-venta/anulacion-ndv.md)
-* [📌 Nota de Crédito x Nro de Factura](facturacion/nota-de-venta/nota-credito-x-factura.md)
-* [📌 Devolución con Despacho (Con Remito)](facturacion/nota-de-venta/devolucion-con-despacho.md)
 
 ## 📦 Stock
 
