@@ -1,6 +1,6 @@
-# Índice
+# Table of contents
 
-* [🏠 Inicio](README.md)
+* [📚 Inicio](README.md)
 
 ## 👥 Clientes
 
@@ -11,33 +11,31 @@
 * [Cuenta Corriente](clientes/cuenta-corriente.md)
 * [Imputación](clientes/imputacion.md)
 
-## 🧾 Facturación
-
-### Presupuestos
+## Presupuestos
 
 * [Ingreso de Presupuesto](facturacion/presupuestos/ingreso.md)
 * [Modificación de Presupuesto](facturacion/presupuestos/modificacion.md)
 * [Pasar Presupuesto a TK](facturacion/presupuestos/pasar-a-tk.md)
 * [Pasar Presupuesto a NDV](facturacion/presupuestos/pasar-a-ndv.md)
 
-### Ticket
+## Ticket
 
 * [Ticket](facturacion/tickets/ticket.md)
 * [TK a Cuenta Corriente](facturacion/tickets/tk-cuenta-corriente.md)
 * [Nota de Crédito desde TK](facturacion/tickets/nota-credito.md)
 
-### Recibos y Pagos
+## Recibos y Pagos
 
 * [Recibos](facturacion/recibos/recibos.md)
 * [Pago en Dólares](facturacion/recibos/pago-dolares.md)
 * [Anulación Cupón - Lapos Integrado](facturacion/recibos/anulacion-cupon-lapos.md)
 
-### Cierre de Caja
+## Cierre de Caja
 
 * [Arqueo y Cierre de Caja](facturacion/caja/arqueo-cierre.md)
 * [Tintométrico](facturacion/caja/tintometrico.md)
 
-### Nota de Venta
+## Nota de Venta
 
 * [Consultar Estado de NDV](facturacion/nota-de-venta/consultar-estado.md)
 * [Nota de Venta](facturacion/nota-de-venta/nota-de-venta.md)
@@ -46,8 +44,8 @@
 * [Bajas](facturacion/nota-de-venta/bajas.md)
 * [Trazabilidad NDV](facturacion/nota-de-venta/trazabilidad-ndv.md)
 * [📌 Cancelación de NDV (Guía completa)](facturacion/nota-de-venta/anulacion-ndv.md)
-* [Nota de Crédito x Nro de Factura](facturacion/nota-de-venta/nota-credito-x-factura.md)
-* [Devolución con Despacho (Con Remito)](facturacion/nota-de-venta/devolucion-con-despacho.md)
+* [📌 Nota de Crédito x Nro de Factura](facturacion/nota-de-venta/nota-credito-x-factura.md)
+* [📌 Devolución con Despacho (Con Remito)](facturacion/nota-de-venta/devolucion-con-despacho.md)
 
 ## 📦 Stock
 
