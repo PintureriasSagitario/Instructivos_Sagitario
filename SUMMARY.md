@@ -29,7 +29,7 @@
 * [Tintometrico](facturacion/tintometrico/README.md)
   * [Tintométrico](facturacion/tintometrico/tintometrico.md)
 
-## Nota de Venta
+## 📩 Nota de Venta
 
 * [Nota de Venta](facturacion/nota-de-venta/nota-de-venta.md)
 * [Consultar Estado](facturacion/nota-de-venta/consultar-estado.md)
@@ -41,7 +41,7 @@
 * [📌 Nota de Crédito x Nro de Factura](nota-de-venta/nota-credito-x-factura.md)
 * [📌 Devolución con Despacho (Con Remito)](nota-de-venta/devolucion-con-despacho.md)
 
-## Cierre de Caja
+## 💰 Cierre de Caja
 
 * [Arqueo y Cierre de Caja](facturacion/caja/arqueo-cierre.md)
 
