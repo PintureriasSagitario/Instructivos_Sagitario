@@ -20,7 +20,7 @@ description: >-
 
 📦 [**Stock**](/broken/pages/MGa3qjm4UMalhy1OqZ4M)**:** Recepción de pedidos de fábrica, control de stock y recepción entre locales.
 
-:moneybag:[**Cierre de Caja:**](/broken/pages/OdyCNSAtNQ68ThFkep1c) Arqueo, transferencias, depósitos y registro de gastos.
+:moneybag: [**Cierre de Caja:**](/broken/pages/OdyCNSAtNQ68ThFkep1c) Arqueo, transferencias, depósitos y registro de gastos.
 
 ⚠️ [**Errores Presea**](/broken/pages/l157QKCVDrYmctVmvBY4)**:** Solución de errores frecuentes del sistema.
 
