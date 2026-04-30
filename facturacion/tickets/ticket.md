@@ -24,17 +24,17 @@ Ticket:👉🏽 Vamos desde desde Ventas - Comprobantes - Tickets
 
 * Nos va a abrir esta pagina, aca vamos a cargar los productos por su codigo.
 
-💡Si no nos acordamos el codigo del producto se puede escanear con el lector el codigo de barras o con F6 buscarlo por detalle.
+<mark style="color:$warning;">💡</mark><mark style="color:$warning;">**Lo ideal y principal es escanear con el lector el codigo de barras o sino con F6 buscarlo por detalle.**</mark>
 
 ![image.png](../../.gitbook/assets/Ticket__image_3.png)
 
-💡 En el tema del descuento hay dos maneras, o se agrega individualmente cuando cargamos la linea del producto o, con SHIFT + F10 agregamos el descuento a todos los productos cargados por igual.
+💡 <mark style="color:$warning;">En el tema del descuento hay dos maneras, o se agrega individualmente cuando cargamos la linea del producto o, con SHIFT + F10 agregamos el descuento a todos los productos cargados por igual.</mark>
 
 ![image.png](../../.gitbook/assets/Ticket__image_4.png)
 
-⚠️ Una vez que le pusimos ENTER al producto ya no se puede modificar. Hay que borrarlo y volver a cargarlo para ponerle el descuento o la cantidad que le corresponde. Para borrar nos paramos sobre el producto y tocamos F5.
+⚠️ Una vez que le pusimos ENTER al producto ya no se puede modificar. Hay que borrarlo y volver a cargarlo para ponerle el descuento o la cantidad que le corresponde. Para borrar nos paramos sobre el producto y tocamos **F5.**
 
-* Una vez cargados todos los productos con las cantidades y los descuentos correspondientes vamos a ir a la solapa de VALORES. Podemos seleccionarlo con el mouse o directamente con ESCAPE.
+Despues de que este ok, todos los productos con las cantidades y los descuentos correspondientes vamos a ir a la solapa de VALORES. Podemos seleccionarlo con el mouse o directamente con ESCAPE.
 
 ![Captura de pantalla 2026-03-31 090032.png](../../.gitbook/assets/Captura_de_pantalla_2026-03-31_090032.png)
 

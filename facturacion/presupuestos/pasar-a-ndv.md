@@ -7,7 +7,7 @@ description: >-
 
 # Pasar Presupuesto a Nota de Venta
 
-Los presupuestos tambien puede pasar a Nota de Venta. Tenemos que ir a Ventas - Pedidos - ingreso desde Presupuestos.
+Desde: Ventas - Pedidos - ingreso desde Presupuestos.
 
 ![image.png](../../.gitbook/assets/Pasar_Presupuesto_a_NDV__image.png)
 
@@ -21,12 +21,11 @@ Los presupuestos tambien puede pasar a Nota de Venta. Tenemos que ir a Ventas - 
 
 * Una vez que le damos ENTER nos lleva a los productos.
 
-💡en el caso de que queramos sumar, eliminar o modificar algun producto lo podemos hacer.
+💡<mark style="color:$warning;">en el caso de que queramos sumar, eliminar o modificar algun producto lo podemos hacer.</mark>
 
 ![image.png](../../.gitbook/assets/Pasar_Presupuesto_a_NDV__image_3.png)
 
 ✅ Con ESCAPE nos pregunta si queremos confirmar el ingreso de productos y si confirmamos la Nota de Venta y listo! queda confirmada.
 
-![image.png](../../.gitbook/assets/Ingreso__image_4.png)
+![image.png](../../.gitbook/assets/Pasar_Presupuesto_a_NDV__image_4.png) ![image.png](../../.gitbook/assets/Ingreso__image_4.png)
 
-![image.png](../../.gitbook/assets/Pasar_Presupuesto_a_NDV__image_4.png)

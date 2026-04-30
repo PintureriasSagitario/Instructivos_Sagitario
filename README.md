@@ -4,7 +4,9 @@ description: >-
   necesitás para operar.
 ---
 
-# 💻 Inicio
+# 💻 INICIO
+
+***
 
 <p align="center">💡 ¿Buscás algo rápido? Usá el buscador de arriba ↑</p>
 

@@ -16,7 +16,7 @@ Ir a Ventas - Presupuesto - Ingreso de Presupuestos
 
 ## 2. Carga de datos
 
-Seleccionamos el cliente, que lo podemos buscar con nombre apretando F6.
+Seleccionamos el cliente, que lo podemos buscar por nombre apretando F6.
 
 ![image.png](../../.gitbook/assets/Ingreso__image.png)
 
@@ -28,13 +28,14 @@ Seleccionamos el cliente, que lo podemos buscar con nombre apretando F6.
 
 * Una vez completos todos los datos, apretamos ENTER y va a abrir el recuadro en donde tenemos que agregar los productos.
 
-💡Los productos se pueden buscar con F6 y lo buscamos por nombre o directamente con el codigo.
+💡Los productos **lo ideal** y recomendado es escanear el codigo de barras, tambien se pueden buscar con F6 por nombre o directamente con el codigo.
 
 ![image.png](../../.gitbook/assets/Ingreso__image_2.png)
 
 Una vez seleccionado el producto ponemos descuento y cantidad 👇🏽
 
-⚠️CUIDADO: en descuento siempre tener en cuenta la forma de pago del cliente. No es lo mismo el descuento de Efectivo que de una promoción bancaria.
+⚠️CUIDADO: en descuento siempre tener en cuenta la forma de pago del cliente (Podemos chequear el cuadro de tarjetas) \
+\- No es lo mismo el descuento de Efectivo que de una promoción bancaria.
 
 ![image.png](../../.gitbook/assets/Ingreso__image_3.png)
 
