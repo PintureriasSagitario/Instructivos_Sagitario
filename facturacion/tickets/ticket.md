@@ -1,6 +1,12 @@
+---
+description: >-
+  Realizá una venta a un cliente que retira todos los productos  y abona en el
+  momento.
+---
+
 # Ticket
 
-En este caso vamos a ver como hacer un TK a un cliente que retira todos los productos y que abona en el momento. 👉🏽 Vamos desde desde Ventas - Comprobantes - Tickets
+Ticket:👉🏽 Vamos desde desde Ventas - Comprobantes - Tickets
 
 ![Captura de pantalla 2026-03-30 160811.png](../../.gitbook/assets/Captura_de_pantalla_2026-03-30_160811.png)
 

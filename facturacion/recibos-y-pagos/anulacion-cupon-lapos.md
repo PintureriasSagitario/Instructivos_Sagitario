@@ -1,3 +1,9 @@
+---
+description: >-
+  Anulá un cupón de tarjeta procesado con el Lapos integrado, ya sea del mismo
+  día o de días anteriores.
+---
+
 # Anulación Cupón - Lapos Integrado
 
 Si tenemos que anular un cupón que se hizo con el Lapos integrado tenemos que hacerlo desde el sistema.

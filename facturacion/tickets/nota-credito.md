@@ -1,6 +1,10 @@
-# Nota de Crédito desde TK
+---
+description: Emití una nota de crédito cuando la venta original se generó desde un Ticket.
+---
 
-Vamos a ver los tipos de notas de credito que se pueden hacer si la venta se generó desde un TK.
+# Nota de Crédito desde Ticket
+
+Vamos a ver los tipos de notas de credito que se pueden hacer si la venta se generó desde un Ticket.
 
 1. Primero vamos a ir a Ventas - Comprobantes - Tickets
 2. Nos va a abrir esta pantalla. En la parte de ingreso de cliente tenemos que apretar CONTROL + F8

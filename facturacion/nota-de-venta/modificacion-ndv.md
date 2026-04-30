@@ -1,4 +1,10 @@
-# Modificación NDV
+---
+description: >-
+  Modificá descuentos, productos, cantidades o dirección de una nota de venta ya
+  confirmada.
+---
+
+# Modificación Nota de Venta
 
 Las notas de venta que ya cargamos y confirmamos podemos modificarle los descuentos, productos, dirección o cantidades en el caso de ser necesario. Desde Ventas - Pedidos - Modificaciones.
 

@@ -1,3 +1,9 @@
+---
+description: >-
+  Registrá la preparación de colores personalizados para clientes desde el
+  sistema Presea.
+---
+
 # Tintométrico
 
 * Desde TK, agregamos el numero de cliente.

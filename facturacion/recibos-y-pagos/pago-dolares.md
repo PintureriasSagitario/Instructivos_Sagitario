@@ -1,3 +1,9 @@
+---
+description: >-
+  Registrá un pago en dólares desde un Ticket o Recibo, usando la cotización del
+  día cargada en el sistema.
+---
+
 # Pago en Dólares
 
 Vamos a ver como registrar desde TK o desde Recibos un pago con dólares.

@@ -1,6 +1,12 @@
-# Pasar Presupuesto a TK
+---
+description: >-
+  Volcar un presupuesto existente en un ticket cuando el cliente decide llevarse
+  los productos y paga en el momento.
+---
 
-Para pasar el presupuesto a un TK se hace desde Ventas - Comprobantes - Tickets
+# Pasar Presupuesto a Ticket
+
+Desde Ventas - Comprobantes - Tickets
 
 ![Captura de pantalla 2026-03-30 160811.png](../../.gitbook/assets/Captura_de_pantalla_2026-03-30_160811.png)
 
