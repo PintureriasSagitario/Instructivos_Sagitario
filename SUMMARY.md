@@ -47,7 +47,15 @@
 
 ## 💰 Cierre de Caja
 
-\* \[Arqueo y Cierre de Caja](facturacion/caja/arqueo-cierre.md)
+* [Arqueo y Cierre de Caja](cierre-de-caja/arqueo-cierre.md)
+* [1. Vuelco de Información](cierre-de-caja/1-vuelco.md)
+* [2. Control de Cheques](cierre-de-caja/2-control-cheques.md)
+* [3. Control de Tarjetas](cierre-de-caja/3-control-tarjetas.md)
+* [4. Planilla de Caja y Ajuste](cierre-de-caja/4-planilla-ajuste.md)
+* [5. Transferencia entre Cajas](cierre-de-caja/5-transferencia-cajas.md)
+* [6. Depósitos Bancarios](cierre-de-caja/6-depositos-bancarios.md)
+* [7. Planilla de Notas de Crédito](cierre-de-caja/7-planilla-nc.md)
+* [8. Registro de Gastos](cierre-de-caja/8-registro-gastos.md)
 
 ## 📦 Stock
 
@@ -59,4 +67,3 @@
 
 * [Error de Correlatividad](errores/error-correlatividad.md)
 * [Error de Impresoras](errores/error-impresoras.md)
-
