@@ -1,6 +1,10 @@
+---
+description: Modificá un presupuesto ya cargado sin necesidad de crear uno nuevo.
+---
+
 # Modificación de Presupuesto
 
-Los presupuestos se pueden modificar, no es necesario cargar uno nuevo si es que el cliente no termino de decidirse. Desde Ventas - Presupuestos - Modificaciones.
+Desde Ventas - Presupuestos - Modificaciones.
 
 * Colocamos el N° de cliente o lo buscamos por nombre con F6.
 

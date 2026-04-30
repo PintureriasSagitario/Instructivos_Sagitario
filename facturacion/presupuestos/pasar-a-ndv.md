@@ -1,20 +1,27 @@
-# Pasar Presupuesto a NDV
+---
+description: >-
+  Convertí un presupuesto en una Nota de Venta cuando el cliente confirma la
+  compra pero no la retira en el momento, retira en otra sucursal o envio a
+  domicilio.
+---
 
-Los presupuestos tambien puede pasar a Nota de Venta. Tenemos que ir a Ventas - Pedidos - ingreso desde Presupuestos. 
+# Pasar Presupuesto a Nota de Venta
+
+Los presupuestos tambien puede pasar a Nota de Venta. Tenemos que ir a Ventas - Pedidos - ingreso desde Presupuestos.
 
 ![image.png](../../.gitbook/assets/Pasar_Presupuesto_a_NDV__image.png)
 
-👉🏽 Primero vamos a poner el codigo del cliente o con F6 lo buscamos por nombre. Con ENTER nos van a figurar todos los presupuestos disponibles. Elegimos el presupuesto con la barra espaciadora y le damos ESCAPE. 
+👉🏽 Primero vamos a poner el codigo del cliente o con F6 lo buscamos por nombre. Con ENTER nos van a figurar todos los presupuestos disponibles. Elegimos el presupuesto con la barra espaciadora y le damos ESCAPE.
 
 ![image.png](../../.gitbook/assets/Pasar_Presupuesto_a_NDV__image_1.png)
 
-- Cargamos todos los datos necesarios
+* Cargamos todos los datos necesarios
 
 ![image.png](../../.gitbook/assets/Pasar_Presupuesto_a_NDV__image_2.png)
 
-- Una vez que le damos ENTER nos lleva a los productos.
+* Una vez que le damos ENTER nos lleva a los productos.
 
-💡en el caso de que queramos sumar, eliminar o modificar algun producto lo podemos hacer. 
+💡en el caso de que queramos sumar, eliminar o modificar algun producto lo podemos hacer.
 
 ![image.png](../../.gitbook/assets/Pasar_Presupuesto_a_NDV__image_3.png)
 

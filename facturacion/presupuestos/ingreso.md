@@ -1,3 +1,9 @@
+---
+description: >-
+  Cargá un presupuesto para un cliente que todavía está evaluando su compra.
+  Podés modificarlo las veces que necesites hasta que se decida
+---
+
 # Ingreso de Presupuesto
 
 Este instructivo explica como ingresar un presupuesto en Presea, detallando los pasos necesarios y su modificación una vez finalizado.

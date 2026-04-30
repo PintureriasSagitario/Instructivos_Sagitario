@@ -1,6 +1,12 @@
+---
+description: >-
+  Creá una nota de venta para clientes que confirmaron su compra pero no la
+  retiran en el momento.
+---
+
 # Nota de Venta
 
-La **nota de venta** se utiliza para cuando el cliente ya sabe que necesita y que tiene que comprar pero que no se lo va a llevar en este momento, puede ser que vaya retirando de a poco o que el pedido lo tenemos que entregar en su domicilio.
+Puede ser que vaya retirando de a poco, en otra sucursal o que el pedido lo tenemos que entregar en su domicilio.
 
 📌 Las Facturas no mueven el stock hasta que no se le da [despacho](Despacho%20NDV%20343b06ef75928077b4d1d07e588e818d.md) con un remito.
 
