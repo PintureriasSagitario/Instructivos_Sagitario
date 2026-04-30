@@ -4,19 +4,22 @@ Este proceso es **obligatorio al cierre de cada sucursal**. Controlá todos los 
 
 > ⚠️ Siempre el responsable de la sucursal debe **firmar** la planilla de caja, el ajuste de efectivo y la planilla de notas de crédito al finalizar el día.
 
----
+***
 
 ## Pasos del cierre
 
-| # | Paso | Ruta en Presea |
-|---|------|---------------|
-| 1 | Vuelco de información | Finanzas → Tickets → Vuelco |
-| 2 | Control de cheques | Finanzas → Consultas → Listado de cheques y valores |
-| 3 | Control de tarjetas | Finanzas → Consultas → Listado de Tarjeta |
-| 4 | Planilla de caja y ajuste de efectivo | Finanzas → Consultas → Planilla de Caja |
-| 5 | Transferencia entre cajas | Finanzas → Operaciones → Transferencia entre Cajas |
-| 6 | Registro de depósitos bancarios | Finanzas → Operaciones → Imputaciones |
-| 7 | Envío de planilla de Notas de Crédito | Querys → LOCALES → Control NC x Suc |
-| 8 | Registro de gastos | Finanzas → Operaciones → Imputaciones |
+1️⃣ **Vuelco de Información** — Para que figuren todos los Ticket, Facturas y Recibos
 
-> 💡 Si realizaron un depósito o un gasto, informarlo de inmediato a quien cierra la caja para que lo incluya y registre.
+2️⃣ **Control de Tarjetas** — Verificar que todos los datos sean correctos
+
+4️⃣ **Planilla de Caja y Ajuste** — Controlar el efectivo y ajustar diferencias
+
+7️⃣ **Planilla de Notas de Crédito**  — Imprimir, firmar y enviar (Si hubo)
+
+3️⃣ **Control de Cheques** — Verificar que todos los datos sean correctos (Si hubo)
+
+5️⃣ **Transferencia entre Cajas** — Cheques, dólares y efectivo retirado
+
+6️⃣ **Depósitos Bancarios** — Si fuiste al banco ese día
+
+8️⃣ **Registro de Gastos** — Si hubo gastos del día

@@ -5,7 +5,7 @@
 ## 👥 Clientes
 
 * [Alta Cliente](clientes/alta-cliente.md)
-* [Consultar \& Modificar Cliente](clientes/consultar-modificar.md)
+* [Consultar & Modificar Cliente](clientes/consultar-modificar.md)
 * [Historia de Cliente](clientes/historia-cliente.md)
 * [Domicilio de Entrega](clientes/domicilio-entrega.md)
 * [Cuenta Corriente](clientes/cuenta-corriente.md)
@@ -14,23 +14,19 @@
 ## 🗒️ Facturación
 
 * [Presupuestos](facturacion/presupuestos/README.md)
-
   * [Ingreso de Presupuesto](facturacion/presupuestos/ingreso.md)
   * [Modificación de Presupuesto](facturacion/presupuestos/modificacion.md)
   * [Pasar Presupuesto a Ticket](facturacion/presupuestos/pasar-a-tk.md)
   * [Pasar Presupuesto a Nota de Venta](facturacion/presupuestos/pasar-a-ndv.md)
 * [Tickets](facturacion/tickets/README.md)
-
   * [Ticket](facturacion/tickets/ticket.md)
   * [Ticket a Cuenta Corriente](facturacion/tickets/tk-cuenta-corriente.md)
   * [Nota de Crédito desde Ticket](facturacion/tickets/nota-credito.md)
 * [Recibos y Pagos](facturacion/recibos-y-pagos/README.md)
-
   * [Recibos](facturacion/recibos-y-pagos/recibos.md)
   * [Pago en Dólares](facturacion/recibos-y-pagos/pago-dolares.md)
   * [Anulación Cupón - Lapos Integrado](facturacion/recibos-y-pagos/anulacion-cupon-lapos.md)
 * [Tintometrico](facturacion/tintometrico/README.md)
-
   * [Tintométrico](facturacion/tintometrico/tintometrico.md)
 
 ## 📩 Nota de Venta
@@ -47,10 +43,10 @@
 
 ## 💰 Cierre de Caja
 
-* [Arqueo y Cierre de Caja](cierre-de-caja/arqueo-cierre.md)
+* [🗂️ Arqueo y Cierre de Caja](cierre-de-caja/arqueo-cierre.md)
 * [1. Vuelco de Información](cierre-de-caja/1-vuelco.md)
-* [2. Control de Cheques](cierre-de-caja/2-control-cheques.md)
-* [3. Control de Tarjetas](cierre-de-caja/3-control-tarjetas.md)
+* [2. Control de Tarjetas](cierre-de-caja/3-control-tarjetas.md)
+* [3. Control de Cheques](cierre-de-caja/2-control-cheques.md)
 * [4. Planilla de Caja y Ajuste](cierre-de-caja/4-planilla-ajuste.md)
 * [5. Transferencia entre Cajas](cierre-de-caja/5-transferencia-cajas.md)
 * [6. Depósitos Bancarios](cierre-de-caja/6-depositos-bancarios.md)
