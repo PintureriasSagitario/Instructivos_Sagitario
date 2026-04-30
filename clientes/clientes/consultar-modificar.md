@@ -15,7 +15,7 @@ description: >-
 
 #### Desde la barra de herramientas, tenemos manera de filtrar o de buscar:
 
-![image.png](../.gitbook/assets/2_Consultar_&_Modificar_Cliente__image.png)
+![image.png](../../.gitbook/assets/2_Consultar_&_Modificar_Cliente__image.png)
 
 Desde los Binoculares, podemos buscar por cualquiera de los campos disponbiles: Codigo, nombre, localidad, direccion, etc. Y lo mismo desde el icono del Filtro (que este a diferencia del primero, solo nos deja en la pantalla el valor encontrado).
 
