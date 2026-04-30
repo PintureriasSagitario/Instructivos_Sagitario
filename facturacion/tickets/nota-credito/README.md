@@ -16,9 +16,9 @@ Vamos a ver los tipos de notas de credito que se pueden hacer si la venta se gen
 
 3. Nos va a aparecer este cartel y tenemos estas 4 opciones. Las que vamos a usar son las dos primeras (**Nota de crédito y reversión**)
 
-💡[La nota de credito](nota-de-credito-parcial..md) la vamos a usar cuando no queremos anular solo algunas cosas del Ticket, el cliente devuelve algunos productos. <mark style="color:$danger;">**Es una nota de crédito parcial.**</mark>
+💡[Nota de credito](nota-de-credito-parcial..md) la vamos a usar cuando no queremos anular solo algunas cosas del Ticket, el cliente devuelve algunos productos. <mark style="color:$danger;">**Es una nota de crédito parcial.**</mark>
 
-💡[ La reversión](/broken/pages/qNWXBmulLIV3jx04kbF7) la vamos a usar cuando queremos anular el ticket completo todos los productos y el medio de pago. <mark style="color:$danger;">**Es una nota de crédito total.**</mark>
+💡[Reversión Total](reversion-total.md) la vamos a usar cuando queremos anular el ticket completo todos los productos y el medio de pago. <mark style="color:$danger;">**Es una nota de crédito total.**</mark>
 
 {% hint style="warning" %}
 Es muy importante relacionar si o si la nota de crédito y la reversión con los TK originales que se quieren anular. Ya que si se cambia la lista de precios podemos tomarle mas o menos plata de la correspondiente.
