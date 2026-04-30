@@ -1,17 +1,13 @@
 # Table of contents
 
 * [💻 Inicio](README.md)
-
-## 👥 Clientes
-
-* [👥 Clientes](clientes/clientes/README.md)
-  * [Alta Cliente](clientes/clientes/alta-cliente.md)
-  * [Consultar & Modificar Cliente](clientes/clientes/consultar-modificar.md)
-  * [Historia de Cliente](clientes/clientes/historia-cliente.md)
-  * [Domicilio de Entrega](clientes/clientes/domicilio-entrega.md)
-  * [Cuenta Corriente](clientes/clientes/cuenta-corriente.md)
-  * [Imputación](clientes/clientes/imputacion.md)
-* [Page 1](clientes/page-1.md)
+* [👥 Clientes](clientes/README.md)
+  * [Alta Cliente](clientes/alta-cliente.md)
+  * [Consultar & Modificar Cliente](clientes/consultar-modificar.md)
+  * [Historia de Cliente](clientes/historia-cliente.md)
+  * [Domicilio de Entrega](clientes/domicilio-entrega.md)
+  * [Cuenta Corriente](clientes/cuenta-corriente.md)
+  * [Imputación](clientes/imputacion.md)
 
 ## 🗒️ Facturación
 
