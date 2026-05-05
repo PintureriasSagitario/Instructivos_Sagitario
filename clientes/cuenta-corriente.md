@@ -73,7 +73,7 @@ Tambien se puede sacar el mismo reporte pero con la deuda del cliente en todo sa
 
 ![image.png](../.gitbook/assets/Cuenta_Corriente__image_6.png)
 
-📌Si en la cuenta del cliente hay pagos pendientes y tambien deuda lo que podemos hacer es [Imputaciones Manuales - Compensación de Saldos](Imputaci%C3%B3n%20345b06ef7592805eb3a6d17b01b86f87.md) para que no nos figuren en la cuenta corriente.
+📌Si en la cuenta del cliente hay pagos pendientes y tambien deuda lo que podemos hacer es [Imputaciones Manuales - Compensación de Saldos](imputacion.md) para que no nos figuren en la cuenta corriente.
 
 {% hint style="danger" %}
 La gestión del cobro en clientes sin cuenta (plazo 7 días) es fundamental para que puedan seguir comprando sin que se bloque la cuenta.
