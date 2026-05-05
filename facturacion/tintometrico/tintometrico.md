@@ -10,28 +10,72 @@ description: >-
 
 ![Captura de pantalla 2026-03-30 160811.png](../../.gitbook/assets/Captura_de_pantalla_2026-03-30_160811.png)
 
+<figure><img src="../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
+
 * Luego vamos a seleccionar ese icono. Nos va a abrir este cuadro y ahi tenemos varias opciones, podemos buscar el historial de los color preparados para ese cliente o buscar una formula ya hecha o bien preparar el color especifico para el cliente.
-*   📌 Vamos a arrancar con el ejemplo de buscar el historial del color.
 
-    Vamos a seleccionar la segunda opción, buscar formula historial y luego a estos binoculares.
+<figure><img src="../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
-    👉🏽 Nos va a abrir este cuadro en el cual podemos buscar el comprobante por fecha, sucursal en la que se facturo y tipo de comprobante. Con los binoculares buscamos y nos trae todos los TK que tienen algun color hecho con el tintométrico. Para poder seleccionar un TK, vamos a darle al tilde verde.
+<details>
 
-    *   Nos vuelca la formula de ese color y para poder bajarlo al TK, vamos a tocar ese icono de las 3 moneditas con la flecha. Luego una
+<summary>📌 Buscar Formula de Color en el Historial</summary>
 
-        ✅ Ponemos la cantidad que se va a llevar y listo ya tenemos la formula histórica de un color volcada en el TK.
-*   📌 Buscar un color especifico.
+Vamos a seleccionar la segunda opción, buscar formula historial y luego a estos binoculares.
 
-    El proceso arranca igual que el anterior, pero vamos a seleccionar buscar formula cartilla y ahi vamos a ir seleccionando manualmente el sistema que hay en la sucursal, la base y la medida. Cuando llegamos al color con F6 lo vamos a buscar.
+<figure><img src="../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
 
-    💡 Una vez buscamos con F6 nos van a salir todos los colores, con la lupita vamos a buscar por detalle y con el nombre buscamos ese color. Ponemos el tilde verde y volcamos la formula.
-*   📌 Crear nueva fórmula.
+👉🏽 Nos va a abrir este cuadro en el cual podemos buscar el comprobante por fecha, sucursal en la que se facturo y tipo de comprobante. Con los binoculares buscamos y nos trae todos los Ticket que tienen algun color hecho con el tintométrico. Para poder seleccionar un Ticket, vamos a darle al tilde verde.
 
-    Si queremos modificar una formula ya existente y guardarlo con un nombre por si hay que volver a usar el color.
+<figure><img src="../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 
-    * Una vez cargado el color vamos a seleccionar ese icono que es para copiar la formula y nos va a llevar a crear nueva formula.
-    * En este punto vamos a seleccionar el primer item que es para cargar un nuevo registro y nos suma un nuevo renglón. Con F6 buscamos el concentrado que queremos agregar
+* Nos vuelca la formula de ese color y para poder bajarlo al Ticket, vamos a tocar ese icono de las 3 moneditas con la flecha. Y nos vuelca el color al ticket
 
-    👉🏽 Una vez agregado el concentrado y la cantidad vamos a cambiar el nombre en el detalle.
+<figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
 
-    ✅ Volcamos la fórmula al TK y listo, queda guardado con el nombre que le pusimos.
+✅ Ponemos la cantidad que se va a llevar y listo ya tenemos la formula histórica de un color volcada en el Ticket.
+
+</details>
+
+<details>
+
+<summary>📌 Buscar un color especifico</summary>
+
+El proceso arranca igual que el anterior, pero vamos a seleccionar buscar formula cartilla y ahi vamos a ir seleccionando manualmente el sistema que hay en la sucursal, la base y la medida. Cuando llegamos al color con F6 lo vamos a buscar.
+
+<figure><img src="../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
+
+💡 Una vez buscamos con F6 nos van a salir todos los colores, con la lupita vamos a buscar por detalle y con el nombre buscamos ese color. Ponemos el tilde verde y volcamos la formula.
+
+<figure><img src="../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
+
+</details>
+
+<details>
+
+<summary>📌 Crear Nueva Formula </summary>
+
+Si queremos modificar una formula ya existente y guardarlo con un nombre por si hay que volver a usar el color.
+
+* Una vez cargado el color vamos a seleccionar ese icono que es para copiar la formula y nos va a llevar a crear nueva formula.
+
+<figure><img src="../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
+
+* En este punto vamos a seleccionar el primer item que es para cargar un nuevo registro y nos suma un nuevo renglón. Con F6 buscamos el concentrado que queremos agregar
+
+<figure><img src="../../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
+
+👉🏽 Una vez agregado el concentrado y la cantidad vamos a cambiar el nombre en el detalle.
+
+<figure><img src="../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
+
+✅ Volcamos la fórmula al TK y listo, queda guardado con el nombre que le pusimos.
+
+</details>
