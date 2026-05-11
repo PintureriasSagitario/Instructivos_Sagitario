@@ -22,9 +22,9 @@ Nos abre esta pantalla donde se muestran todos los comprobantes del cliente.
 
 Si queremos consultar que contiene cada uno podemos usar las teclas ALT + V y lo vamos a ver estilo reporte.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt="" width="185"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="185"><figcaption></figcaption></figure>
 
 \
 Sino con F9 podemos ver el contenido como una lista.
 
-<figure><img src="../.gitbook/assets/image (21).png" alt="" width="524"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21) (1).png" alt="" width="524"><figcaption></figcaption></figure>

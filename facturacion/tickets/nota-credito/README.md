@@ -8,11 +8,11 @@ Vamos a ver los tipos de notas de credito que se pueden hacer si la venta se gen
 
 1. Primero vamos a ir a Ventas - Comprobantes - Tickets
 
-<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt="" width="187"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1) (1).png" alt="" width="187"><figcaption></figcaption></figure>
 
 2. Nos va a abrir esta pantalla. En la parte de ingreso de cliente tenemos que apretar **CONTROL + F8**
 
-<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt="" width="224"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1) (1).png" alt="" width="224"><figcaption></figcaption></figure>
 
 3. Nos va a aparecer este cartel y tenemos estas 4 opciones. Las que vamos a usar son las dos primeras (**Nota de crédito y reversión**)
 

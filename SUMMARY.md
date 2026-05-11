@@ -49,6 +49,7 @@
 * [📦 STOCK](stock/README.md)
   * [Control de Stock](stock/control-stock.md)
   * [Recepción Pedidos de Fábrica](stock/recepcion-fabrica.md)
+  * [Transferencia entre Locales](stock/transferencia-entre-locales.md)
   * [Recepción de Locales](stock/recepcion-locales.md)
 * [⚠️ ERRORES PRESEA](errores-presea/README.md)
   * [Error de Correlatividad](errores/error-correlatividad.md)

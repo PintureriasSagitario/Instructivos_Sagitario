@@ -10,9 +10,9 @@ Vamos a ver como registrar desde Ticket o desde Recibos un pago con dólares.
 
 * Primero tenemos que ver la cotización del día del dólar, arriba de todo vamos a buscar este icono.
 
-<figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (31) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (32) (1).png" alt=""><figcaption></figcaption></figure>
 
 <details>
 
@@ -29,7 +29,7 @@ Para tomar dólares en un recibo, hay que hacer todos los pasos según vimos en 
 \
 💡Si quiere la diferencia a cuenta corriente, solo dejamos la linea de los dólares.
 
-<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (33) (1).png" alt=""><figcaption></figcaption></figure>
 
 ✅ Confirmamos el recibo y listo!<br>
 
@@ -46,7 +46,7 @@ Para dar de pago un Ticket con dólares hay que seguir todos los pasos de como c
 
 💡 Desde un Ticket no se puede dejar la diferencia en cuenta corriente. Eso solo se puede hacer desde Recibos.
 
-<figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (35) (1).png" alt=""><figcaption></figcaption></figure>
 
 ✅ Confirmamos el Ticket y listo, ya quedo el pago de dólares.<br>
 

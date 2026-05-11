@@ -12,11 +12,11 @@ Este ítem se usa cuando se hizo una factura desde una nota de venta y **SI** se
 
 * Se hace desde Ventas - Comprobantes - Devoluciones:<br>
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Seleccionamos el cliente, y nos va abrir un cuadrito en el cual nos pide que seleccionemos la lista de precios en la cual se hizo la nota de venta.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 💡Podemos ver la vigencia de la lista de precios en las columnas desde/hasta y asi sabemos cual es la que tenemos que usar.
@@ -24,13 +24,13 @@ Este ítem se usa cuando se hizo una factura desde una nota de venta y **SI** se
 
 * Ponemos toda la información que nos pide y en donde dice actualiza nota de venta le ponemos una <mark style="color:$danger;">**N.**</mark>
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 *   Despues nos va a abrir una ventana en donde nos va a pedir cargar los productos. Acá tenemos que tocar <mark style="color:$danger;">**CTRL + B**</mark> que nos va a traer las facturas del cliente, es muy importante que **no** carguemos los productos manualmente.
 
-    <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -40,7 +40,7 @@ Este ítem se usa cuando se hizo una factura desde una nota de venta y **SI** se
 Es muy importante este paso, sino lo relacionamos no nos va a grabar la nota de crédito.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Le damos escape y confirmamos la Devolución.
 
