@@ -6,13 +6,13 @@ description: >-
 
 # Tintométrico
 
-* Desde TK, agregamos el numero de cliente.
+* Desde Ticket, agregamos el numero de cliente, y vamos hasta la ventana de productos.
 
 ![Captura de pantalla 2026-03-30 160811.png](../../.gitbook/assets/Captura_de_pantalla_2026-03-30_160811.png)
 
 <figure><img src="../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
 
-* Luego vamos a seleccionar ese icono. Nos va a abrir este cuadro y ahi tenemos varias opciones, podemos buscar el historial de los color preparados para ese cliente o buscar una formula ya hecha o bien preparar el color especifico para el cliente.
+* Luego vamos a seleccionar ese icono. Nos va a abrir este cuadro y ahi tenemos varias opciones, podemos buscar el historial de los colores preparados para ese cliente, buscar una formula ya hecha, o bien preparar el color especifico para el cliente.
 
 <figure><img src="../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 

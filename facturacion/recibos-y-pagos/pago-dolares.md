@@ -40,7 +40,7 @@ Para tomar dólares en un recibo, hay que hacer todos los pasos según vimos en 
 <summary><strong>Ticket: Desplegar Pasos</strong></summary>
 
 Para dar de pago un Ticket con dólares hay que seguir todos los pasos de como cargar un [Ticket.](../tickets/ticket.md)\
-👉🏽 En la parte de ingreso de pagos seleccionamos Dólares en N\_bco y en importe poner la cantidad de dólares que nos dio el cliente.
+👉🏽 Una vez que llegamos a la parte de pago con F6 buscamos dólares o ponemos el codigo 888.
 
 <mark style="color:$warning;">⚠️ En este caso como vemos en el ejemplo, dejando solo la linea de los dólares el sistema interpreta que le queremos devolver el efectivo al cliente.</mark>
 
@@ -53,3 +53,4 @@ Para dar de pago un Ticket con dólares hay que seguir todos los pasos de como c
 </details>
 
 ⚠️ Luego de hacer un Recibo de dólares o un Ticket tenemos que hacer una Transferencia entre cajas. [(instructivo🔗)](../../cierre-de-caja/arqueo-cierre/5-transferencia-cajas.md#dolares)
+
