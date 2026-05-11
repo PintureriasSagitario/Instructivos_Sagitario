@@ -10,11 +10,11 @@ Esta función te permite ver todos los comprobantes emitidos a un cliente — fa
 
 * Desde; Ventas - Clientes - Historia de Cliente.
 
-![image.png](../.gitbook/assets/Historia_de_Cliente__image.png)
+<img src="../.gitbook/assets/Historia_de_Cliente__image.png" alt="image.png" width="221">
 
 * Se abre un cuadrito y vamos a buscar solamente por cliente con el codigo o con F6 lo buscamos por nombre. Si no lo encontramos le podemos preguntar al cliente el numero de dni o cuit y con Control + L lo buscamos por Cuit y aceptamos.
 
-![](../.gitbook/assets/Historia_de_Cliente__image_1.png)
+<img src="../.gitbook/assets/Historia_de_Cliente__image_1.png" alt="" width="426">
 
 Nos abre esta pantalla donde se muestran todos los comprobantes del cliente.
 

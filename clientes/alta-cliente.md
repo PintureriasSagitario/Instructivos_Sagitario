@@ -16,19 +16,19 @@ Este instructivo explica cómo dar de alta un cliente en el sistema Presea, comp
 
 Ventas → Clientes → Altas → Datos Básica:
 
-![image.png](../.gitbook/assets/1_Alta_Cliente__image.png)
+<img src="../.gitbook/assets/1_Alta_Cliente__image.png" alt="image.png" width="342">
 
 ## 2. Generar Código
 
 ✅ **IMPORTANTE:** Siempre usar “Código Disponible”, Boton celeste del medio!
 
-![image.png](../.gitbook/assets/1_Alta_Cliente__image_1.png)
+<img src="../.gitbook/assets/1_Alta_Cliente__image_1.png" alt="image.png" width="537">
 
-![image.png](../.gitbook/assets/1_Alta_Cliente__image_2.png)
+<img src="../.gitbook/assets/1_Alta_Cliente__image_2.png" alt="image.png" width="374">
 
 👉🏼 El Sistema asigna automáticamente el código disponible para usar: Ej.28
 
-![image.png](../.gitbook/assets/1_Alta_Cliente__image_3.png)
+<img src="../.gitbook/assets/1_Alta_Cliente__image_3.png" alt="image.png" width="552">
 
 ## 3. Completar los datos básicos:
 
@@ -45,7 +45,7 @@ Ventas → Clientes → Altas → Datos Básica:
 * Presionar F6 para seleccionar
 * Elegir la sucursal correspondiente
 
-![image.png](../.gitbook/assets/1_Alta_Cliente__image_4.png)
+<img src="../.gitbook/assets/1_Alta_Cliente__image_4.png" alt="image.png" width="495">
 
 ## 4. Localidad:
 
@@ -57,9 +57,9 @@ Ventas → Clientes → Altas → Datos Básica:
 👉 Buscar y seleccionar \
 👉 El sistema completa CP y provincia automáticamente
 
-![image.png](../.gitbook/assets/1_Alta_Cliente__image_5.png)
+<img src="../.gitbook/assets/1_Alta_Cliente__image_5.png" alt="image.png" width="563">
 
-![image.png](../.gitbook/assets/1_Alta_Cliente__image_6.png)
+<img src="../.gitbook/assets/1_Alta_Cliente__image_6.png" alt="image.png" width="563">
 
 ## 5. Datos Fiscales:
 
@@ -68,7 +68,7 @@ Ventas → Clientes → Altas → Datos Básica:
 
 ⚠️ Esto define si factura A (CUIT) o B (DNI) • Tipo de documento: F6 (CUIT, DNI, etc.) • CUIT: obligatorio y único
 
-![image.png](../.gitbook/assets/1_Alta_Cliente__image_7.png)
+<img src="../.gitbook/assets/1_Alta_Cliente__image_7.png" alt="image.png" width="563">
 
 ## 6. Datos Comerciales:
 
@@ -86,7 +86,7 @@ Teléfono: Telefono celular del cliente \
 
 _**Ejemplo:**_
 
-![image.png](../.gitbook/assets/1_Alta_Cliente__image_8.png)
+<img src="../.gitbook/assets/1_Alta_Cliente__image_8.png" alt="image.png" width="233">
 
 Una vez que terminamos le damos Escape, nos consulta si “Ingresamos los nuevos registros?” Aceptar ✅
 

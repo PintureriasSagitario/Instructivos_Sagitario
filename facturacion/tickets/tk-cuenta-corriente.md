@@ -14,7 +14,7 @@ Esta forma se usa para cuando:
 
 1. Se carga el ticket normalmente como vimos en el [Instructivo de Ticket](Ticket%20333b06ef759280398cb6d2611b25f830.md).
 
-![image.png](../../.gitbook/assets/TK_a_cuenta_corriente__image.png)
+<img src="../../.gitbook/assets/TK_a_cuenta_corriente__image.png" alt="image.png" width="563">
 
 1. Lo que vamos a modificar es la parte de pago, ya que el cliente no lo va a abonar en el momento, no le vamos a cargar ningún medio de pago.
 2. Cuando le demos ESCAPE nos va a tirar este cuadrito el cual nos pregunta si queremos que esta diferencia la mandemos a cuenta corriente.
@@ -23,6 +23,6 @@ Esta forma se usa para cuando:
 IMPORTANTE: Prestar atención a este cartel, para que no nos envie a cuenta comprobantes que ya fueron pagos.
 {% endhint %}
 
-![image.png](../../.gitbook/assets/TK_a_cuenta_corriente__image_1.png)
+<img src="../../.gitbook/assets/TK_a_cuenta_corriente__image_1.png" alt="image.png" width="305">
 
 ✅ Le damos ACEPTAR y listo! ya queda guardado el TK.

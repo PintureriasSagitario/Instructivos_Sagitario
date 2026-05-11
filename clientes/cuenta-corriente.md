@@ -39,13 +39,13 @@ Vamos a ver como controlar y consultar las cuentas corrientes de los clientes, p
 
     1.  **Acceso:** Clic en el icono de la **persona con el signo pesos ($)**.
 
-        ![image.png](../.gitbook/assets/Cuenta_Corriente__image.png)
+        <img src="../.gitbook/assets/Cuenta_Corriente__image.png" alt="image.png" width="308">
     2.  **Búsqueda:** Escribí el nombre en **MAYÚSCULAS** (Ej: `FONTANA HNOS`) y presiona **Enter**.
 
-        ![image.png](../.gitbook/assets/Cuenta_Corriente__image_1.png)
+        <img src="../.gitbook/assets/Cuenta_Corriente__image_1.png" alt="image.png" width="426">
     3.  **Detalle:** Seleccioná al cliente y presiona **F8**. Verás todo lo que debe en cualquier sucursal de la empresa.
 
-        ![image.png](../.gitbook/assets/Cuenta_Corriente__image_2.png)
+        <img src="../.gitbook/assets/Cuenta_Corriente__image_2.png" alt="image.png" width="527">
 
 ***
 
@@ -63,15 +63,15 @@ Tambien se puede sacar el mismo reporte pero con la deuda del cliente en todo sa
 
 *   Nos abre esta ventana, donde dejamos los filtros como están y nos ordena los clientes alfabéticamente
 
-    ![image.png](../.gitbook/assets/Cuenta_Corriente__image_4.png)
+    <img src="../.gitbook/assets/Cuenta_Corriente__image_4.png" alt="image.png" width="531">
 *   Le damos aceptar y nos abre este cuadro, donde nuevamente le damos aceptar eligiendo la impresora PRESEAPS, que viene por default, para que nos envié el reporte a cola de impresión.
 
-    ![image.png](../.gitbook/assets/Cuenta_Corriente__image_5.png)
+    <img src="../.gitbook/assets/Cuenta_Corriente__image_5.png" alt="image.png" width="260">
 * Este es el reporte que genera, y podemos imprimirlo si es necesario. \
   **DEBE:** Indica la deuda del cliente (facturas pendientes). \
   **HABER:** Indica saldos a favor (notas de crédito o pagos adelantados).
 
-![image.png](../.gitbook/assets/Cuenta_Corriente__image_6.png)
+<img src="../.gitbook/assets/Cuenta_Corriente__image_6.png" alt="image.png" width="528">
 
 📌Si en la cuenta del cliente hay pagos pendientes y tambien deuda lo que podemos hacer es [Imputaciones Manuales - Compensación de Saldos](imputacion.md) para que no nos figuren en la cuenta corriente.
 

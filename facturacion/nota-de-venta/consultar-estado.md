@@ -4,9 +4,7 @@ description: Consuntamos si la Nota de Venta - Esta despachada / Facturada
 
 # Consultar Estado
 
-📌
-
-**Objetivo**
+📌**Objetivo**
 
 Aprender a consultar el **estado de una Nota de Venta** usando la Query y entender qué información devuelve.
 
