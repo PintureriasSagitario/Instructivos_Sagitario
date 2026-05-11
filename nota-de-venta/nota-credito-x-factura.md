@@ -32,11 +32,13 @@ Vamos a ir desde Ventas - Comprobantes - Notas de Crédito x nro de factura
 
 {% hint style="danger" %}
 Nos va a salir este cuadrito, es importante saber cuando marcar el tilde verde y cuando la cruz roja.
-{% endhint %}
 
-* Tilde Verde: Nota de crédito **TOTAL** de facturas A.
-* Cruz Roja: Siempre que sean facturas B y nota de crédito **PARCIAL** de facturas A.
+* <mark style="color:$success;">**Tilde Verde:**</mark> Nota de crédito **TOTAL** de facturas A.
+* <mark style="color:$danger;">**Cruz Roja:**</mark> Siempre que sean **FACTURAS B** y nota de crédito **PARCIAL** de facturas **A.**
+{% endhint %}
 
 ✅ Y listo queda grabada la nota de crédito en la historia del cliente.
 
-💡 Si se cancela la Nota de venta en su totalidad hay que eliminarla desde **Bajas.** Si se cancelan algunos productos, se cambia la cantidad o se elimina el producto hay que [**Modificar**](../facturacion/Modificaci%C3%B3n%20NDV%20343b06ef759280fab9b8eee018b4b5d5.md) la NDV
+{% hint style="warning" %}
+💡 Si se cancela la Nota de venta en su totalidad hay que eliminarla desde **Bajas.** Si se cancelan algunos productos, se cambia la cantidad o se elimina el producto hay que [**Modificar**](../facturacion/nota-de-venta/modificacion-ndv.md) la Nota de Venta.
+{% endhint %}
