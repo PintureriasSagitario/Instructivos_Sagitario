@@ -54,4 +54,5 @@
 * [⚠️ ERRORES PRESEA](errores-presea/README.md)
   * [Error de Correlatividad](errores/error-correlatividad.md)
   * [Error de Impresoras](errores/error-impresoras.md)
-* [🦊 PRESEA OFFLINE](presea-offline.md)
+* [🦊 PRESEA OFFLINE](presea-offline/README.md)
+  * [Subir Tickets](presea-offline/subir-tickets.md)
