@@ -26,6 +26,8 @@ description: >-
 
 ⚠️ [**Errores Presea:**](errores-presea/) Solución de errores frecuentes del sistema.
 
+🦊 [**Presea Offline:**](presea-offline/) Lo necesario para operar con Presea Offline.
+
 ***
 
 > 💡 Usá el menú de la izquierda para navegar entre los instructivos.
