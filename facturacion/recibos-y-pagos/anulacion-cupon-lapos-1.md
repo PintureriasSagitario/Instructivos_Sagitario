@@ -70,24 +70,18 @@ Y desde la historia del cliente podes visualizar el recibo y/o guardarlo como PD
 
 Si hay algo que revisar (falta información, no se acreditó, etc.), también vas a recibir un mail avisándote cuál es la observación, así lo podés resolver.
 
-\<aside> 📌
-
+{% hint style="info" %}
 Los mails llegan desde [**cobranzas@pintureriasagitario.com.ar**](mailto:cobranzas@pintureriasagitario.com.ar). Si no los ves, fijate en la carpeta de Spam y marcalos como "No es spam" para que los próximos lleguen directo a la bandeja de entrada
-
-\</aside>
+{% endhint %}
 
 ***
 
-### ❓ Preguntas frecuentes
+### ❓Preguntas frecuentes:
 
-**¿Qué pasa si me equivoqué al cargar un comprobante?** Avisanos por WhatsApp o mail. Desde acá podemos corregir o pedirte que lo cargues de nuevo con los datos correctos.
-
-**¿Puedo cargar varios pagos del mismo cliente en una sola vez?** Si. Pero podes cargar hasta 5 comprobantes, si supera esa cantidad tendras que enviar un formulario nuevo.
-
-**¿Puedo cargar el formulario desde el celular?** Sí, funciona igual desde celular o computadora.
-
-**¿Qué pasa si el cliente manda el comprobante directo a cobranzas?** Lo procesamos manualmente desde acá. El formulario es para las sucursales.
-
-**¿Cuánto tarda la confirmación del recibo?** Depende del volumen del día, pero normalmente lo procesamos durante el día. Si tenés urgencia con un pago, avisanos por WhatsApp.
+1. **¿Qué pasa si me equivoqué al cargar un comprobante?** Avisanos por WhatsApp o mail. Desde acá podemos corregir o pedirte que lo cargues de nuevo con los datos correctos.
+2. **¿Puedo cargar varios pagos del mismo cliente en una sola vez?** Si. Pero podes cargar hasta 5 comprobantes, si supera esa cantidad tendras que enviar un formulario nuevo.
+3. **¿Puedo cargar el formulario desde el celular?** Sí, funciona igual desde celular o computadora.
+4. **¿Qué pasa si el cliente manda el comprobante directo a cobranzas?** Lo procesamos manualmente desde acá. El formulario es para las sucursales.
+5. **¿Cuánto tarda la confirmación del recibo?** Depende del volumen del día, pero normalmente lo procesamos durante el día. Si tenés urgencia con un pago, avisanos por WhatsApp.
 
 ***
