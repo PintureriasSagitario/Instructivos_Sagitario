@@ -24,7 +24,7 @@
     * [Recibos](facturacion/recibos-y-pagos/recibos.md)
     * [Pago en Dólares](facturacion/recibos-y-pagos/pago-dolares.md)
     * [Anulación Cupón - Lapos Integrado](facturacion/recibos-y-pagos/anulacion-cupon-lapos.md)
-    * [Cómo cargar un comprobante de pago.](facturacion/recibos-y-pagos/anulacion-cupon-lapos-1.md)
+    * [Cómo enviar un comprobante de pago.](facturacion/recibos-y-pagos/anulacion-cupon-lapos-1.md)
   * [Reimpresión de Comprobantes](facturacion/reimpresion-de-comprobantes/README.md)
     * [Reimpresión de Tickets](facturacion/reimpresion-de-comprobantes/reimpresion-de-tickets.md)
     * [Reimpresión Facturas, Remitos & Recibos](facturacion/reimpresion-de-comprobantes/reimpresion-facturas-remitos-and-recibos.md)
