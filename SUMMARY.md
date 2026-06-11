@@ -55,6 +55,7 @@
   * [Recepción Pedidos de Fábrica](stock/recepcion-fabrica.md)
   * [Transferencia entre Locales](stock/transferencia-entre-locales.md)
   * [Recepción de Locales](stock/recepcion-locales.md)
+  * [Consulta - Movimiento de Productos](stock/consulta-movimiento-de-productos.md)
 * [⚠️ ERRORES PRESEA](errores-presea/README.md)
   * [Error de Correlatividad](errores/error-correlatividad.md)
   * [Error de Impresoras](errores/error-impresoras.md)
