@@ -12,14 +12,14 @@ description: >-
 
 **🖥️ Atención a Sucursales**
 
-**Florencia Sarni / Rocio Escudero / Camila Carrera** 📱 [2267 53-3722](https://wa.me/5492267533722)\
-Problemas con Presea, configuraciones, temas de facturación, compra de insumos para PC, corte de servicios.
+**Florencia Sarni / Rocio Escudero / Camila Carrera -** <img src=".gitbook/assets/1383269.png" alt="" data-size="line"> [2267 53-3722](https://wa.me/5492267533722)\
+Problemas con Presea, configuraciones, temas de facturación, compra de insumos para PC, corte de servicios.<br>
 
 ***
 
 **📦 Atención a Proveedores**
 
-**Mariela Della Rocca  / Aldana Garcia / Noe Porcel** 📱 [2267 41-6925](https://wa.me/5492267416925)\
+**Mariela Della Rocca  / Aldana Garcia / Noe Porcel -** <img src=".gitbook/assets/1383269 (1).png" alt="" data-size="line"> [2267 41-6925](https://wa.me/5492267416925)\
 Proveedores, recepción de pedidos de fábrica, mercadería faltante o incorrecta, pagos de facturas.
 
 ***
