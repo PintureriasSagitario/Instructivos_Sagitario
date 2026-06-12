@@ -28,6 +28,8 @@ description: >-
 
 🦊 [**Presea Offline:**](presea-offline/) Lo necesario para operar con Presea Offline.
 
+:telephone\_receiver: [Contactos & Soporte:](contactos-and-soporte.md) Contactá al área correspondiente según el tema.
+
 ***
 
 > 💡 Usá el menú de la izquierda para navegar entre los instructivos.

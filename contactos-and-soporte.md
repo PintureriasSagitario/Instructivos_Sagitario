@@ -4,7 +4,7 @@ description: >-
   tema.
 ---
 
-# 📞 CONTACTOS Y SOPORTE
+# 📞 CONTACTOS & SOPORTE
 
 ¿Tenés una duda o un problema? Contactá al área correspondiente según el tema.
 
@@ -26,39 +26,39 @@ Proveedores, recepción de pedidos de fábrica, mercadería faltante o incorrect
 
 **💰 Cobranzas**
 
-**Nadia Blanco** 📱 [2267 41-8473](https://wa.me/5492267418473)\
+**Nadia Blanco** <img src=".gitbook/assets/image (145).png" alt="" data-size="line"> [2267 41-8473](https://wa.me/5492267418473)\
 Recibos de pagos de clientes, consultas sobre pagos de clientes y cuentas corrientes.
 
 ***
 
 **🛒 Compras**
 
-**Carolina Abait** 📱 [2267 41-7730](https://wa.me/5492267417730)
+**Carolina Abait** <img src=".gitbook/assets/image (146).png" alt="" data-size="line"> [2267 41-7730](https://wa.me/5492267417730)
 
-**Alejandra Gomez** 📱 [2267 44-6325](https://wa.me/5492267446325)\
+**Alejandra Gomez** <img src=".gitbook/assets/image (147).png" alt="" data-size="line"> [2267 44-6325](https://wa.me/5492267446325)\
 Consultas sobre stock y ajustes de stock.
 
 ***
 
 **👥 RRHH**
 
-**Vanesa Vivas** 📱 [2267 53-3710](https://wa.me/5492267533710)\
+**Vanesa Vivas** <img src=".gitbook/assets/image (148).png" alt="" data-size="line"> [2267 53-3710](https://wa.me/5492267533710)\
 Uniformes, permisos, licencias, vacaciones, llegadas tarde, problemas con fichar, número de vendedor en sistema.
 
 ***
 
 **💲 Precios**
 
-**Sabrina Quiñonez** 📱 [11 2700-7772](https://wa.me/541127007772)
+**Sabrina Quiñonez** <img src=".gitbook/assets/image (149).png" alt="" data-size="line"> [11 2700-7772](https://wa.me/541127007772)
 
-**Matias Allo** 📱 [11 3308-9772](https://wa.me/541133089772)\
+**Matias Allo** <img src=".gitbook/assets/image (150).png" alt="" data-size="line"> [11 3308-9772](https://wa.me/541133089772)\
 Listas de precios y errores en productos.
 
 ***
 
 **🧾 Impositivo Contable**
 
-**Lucia Bilovic** 📱 [2267 40-2727](https://wa.me/5492267402727)\
+**Lucia Bilovic**  <img src=".gitbook/assets/image (151).png" alt="" data-size="line"> [2267 40-2727](https://wa.me/5492267402727)\
 Consultas sobre impuestos y percepciones.
 
 ***
