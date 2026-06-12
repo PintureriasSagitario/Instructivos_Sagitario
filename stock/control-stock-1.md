@@ -1,12 +1,14 @@
 ---
-description: Este instructivo explica cómo realizar los controles de stock por sucursal.
+description: >-
+  Este instructivo explica cómo realizar los controles de stock de los productos
+  que nos figuran en stock negativo.
 ---
 
-# Copy of Control de Stock
+# Control de Stock - Productos en negativo
 
-Descargar el Excel con todos los productos de cada proveedor facilita el control: en lugar de copiar los códigos a mano y calcular las diferencias entre lo físico y lo que figura en sistema, solo hay que completar el Excel con la **cantidad real física** que tenemos en la sucursal.
+Este control sirve para detectar productos en **stock negativo** (cantidad menor a cero en sistema). Traemos **todos los productos de la sucursal** y los ordenamos por cantidad para ver primero los que están en negativo y poder corregirlos.
 
-
+### Parte 1 — Descargar el Excel de stock
 
 **Ruta**: `Productos → Depósitos → Stock xArt. y deposito`
 
@@ -16,49 +18,94 @@ IMPORTANTE: Desde este listado no nos trae los productos que estan en 0, solo lo
 
 <figure><img src="../.gitbook/assets/image (153).png" alt=""><figcaption></figcaption></figure>
 
-2. Nos abre la ventana de filtros donde tenemos 2 opciones:
+2. Nos abre la ventana de filtros: Lo dejamos con los filtros que tienen y le damos aceptar.
 
-* **Filtrar por proveedor:** tildá el campo **Prov. de Stock** y con **F6** buscá por nombre de proveedor. Sirve para controlar una sola fábrica en particular.
-* **Dejarlo vacío (sin tildar):** trae **todos** los productos de la sucursal. Esta opción sirve para controlar los negativos.
+<figure><img src="../.gitbook/assets/image (165).png" alt="" width="385"><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (154).png" alt="" width="380"><figcaption></figcaption></figure>
-
-3. Nos abre una pantalla con todos los productos que tenemos stock positivo y negativo (En este listado no salen los productos con cantidad 0).
+2. Nos abre una pantalla con todos los productos que tenemos en stock.
 
 ![image.png](../.gitbook/assets/Control_de_Stock__image_2.png)
 
-4. En el caso que querramos descargar/ver solo los negativos. podemos ordenarlo por cantidad. Le damos click a "Cantidad", y nos abre la siguiente ventana - Desmarcamos el campo "Agrupar" y le damos Aceptar.
+3. Para controlar los negativos necesitamos filtrar por los menores a 0, apretamos el icono del Filtro <img src="../.gitbook/assets/image (169).png" alt="" data-size="original"> y nos abre una ventana con lo que necesitamos filtrar:\
+   1\. Seleccionar el campo cantidad y damos enter:
 
-![image.png](../.gitbook/assets/Control_de_Stock__image_3.png)
+<figure><img src="../.gitbook/assets/image (176).png" alt="" width="421"><figcaption></figcaption></figure>
 
-5. Revisar los negativos:\
-   Ahora que están ordenados por cantidad, yendo hacia arriba de todo podemos ver los productos en negativo y controlarlos.
-6. Para descargarlo en un Excel vamos a ir a esas tres moneditas con la flecha azul y volcamos el archivo.
+3. Selecicionamos donde dice "MENOR (<)" y le damos enter:
 
-![image.png](../.gitbook/assets/Control_de_Stock__image_4.png)
+<figure><img src="../.gitbook/assets/image (177).png" alt="" width="427"><figcaption></figcaption></figure>
 
-7. Para guardarlo seleccionamos formato Excel, en el icono de la carpeta elegimos en donde guardarlo y hay que ponerle nombre sí o sí. Si no el archivo no se va a guardar.
+3. Abajo en el campo filtro lo unico que ponemos es "0" y le damos enter.
+
+<figure><img src="../.gitbook/assets/image (175).png" alt="" width="422"><figcaption></figcaption></figure>
+
+4. Nos pregunta ¿Desea agregar otra condicion? le ponemos NO.
+5. Ahora solo en pantalla nos aparecen los productos que son menores a 0, osea que estan en negativo.
+
+<figure><img src="../.gitbook/assets/image (168).png" alt="" width="563"><figcaption></figcaption></figure>
+
+***
+
+<h4 align="center"><strong>Descargar Productos a un Excel</strong></h4>
+
+1. Para descargarlo, hacé clic en las **tres moneditas con la flecha azul** ![](<../.gitbook/assets/image (161).png>) y volcá el archivo.
+
+<figure><img src="../.gitbook/assets/image (178).png" alt="" width="563"><figcaption></figcaption></figure>
+
+Guardar como excel: Seleccioná formato **Excel**, elegí la carpeta donde guardarlo con el ícono de carpeta y ponele un **nombre obligatoriamente** (si no, el archivo no se guarda).
 
 ![image.png](../.gitbook/assets/Control_de_Stock__image_5.png)
 
-8. Abrimos el archivo que descargamos que va a aparecer con este formato
+3. Abrir el archivo descargado:El archivo descargado aparece con este formato:
 
-![image.png](../.gitbook/assets/Control_de_Stock__image_6.png)
+<figure><img src="../.gitbook/assets/image (179).png" alt="" width="563"><figcaption></figcaption></figure>
 
-### Importar archivo de Stock arreglado:
+{% hint style="warning" %}
+El excel se descarga tal cual lo vimos en sistema.\
+En el caso de que este mismo archivo lo quieran subir al sistema se tiene que modificar la columna cantidad, con la cantidad REAL que tenemos en la sucursal.
+{% endhint %}
 
-📌Para poder subir el archivo con las cantidades reales, tienen que quedar en este orden. Código – Detalle – Deposito - Cantidad
+***
+
+### Parte 2 — Importar el archivo de stock corregido
+
+📌IMPORTANTE: **Importante:** para poder subir el archivo con las cantidades reales, las columnas tienen que quedar en este orden: **Código – Detalle – Depósito – Cantidad** _(LA CANTIDAD REAL QUE TENGO EN LA SUCU)_
 
 <figure><img src="../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
 
-1. Para cargar este archivo hay que ir a presea y desde Productos – Stock – Control de Stock.
+1\. Ingresar al control de stock:\
+En Presea, ir a **Productos → Stock → Control de Stock**.
 
-Con Enter avanzamos y cuando llegamos a la parte del listado tenemos dos opciones. Cargar el archivo con las cantidades modificadas o buscar el producto y cargarlos manualmente. En el caso de que se tenga que subir un archivo, cuando llegamos a la parte de la lista apretamos “Ctrl + B” Nos tiene que aparecer un recuadro y con el icono de la carpeta, buscamos el archivo. En tipo de archivo va: “XLSX” y nombre de la hoja “Hoja1” y después lo importamos.
+<figure><img src="../.gitbook/assets/image (157).png" alt=""><figcaption></figcaption></figure>
 
-![image.png](../.gitbook/assets/Control_de_Stock__image_8.png)
+2. Las 2 primeras leyendas aceptamos con enter y avanzamos.
 
-![image.png](../.gitbook/assets/Control_de_Stock__image_9.png)
+<figure><img src="../.gitbook/assets/image (159).png" alt="" width="511"><figcaption></figcaption></figure>
 
-2. Confirmamos vuelco y con Escape confirmamos el control de stock.
+3. En la parte de productos es que podemos importar el excel que ya completamos con las cantidades reales anteriormente.&#x20;
+4. Subir el excel: Apretamos “Ctrl + B” y nos abre un recuadro. Seleccionamos el  icono de la carpeta, y buscamos el archivo. \
+   En tipo de archivo va: “XLSX” y tildamos donde dice "La primera fila es cabezera" \
+   Importar.
 
-✅ Este control se va a guardar en la cola de impresión, hay que descargarlo y pasarlo a administración para poder hacer los ajustes.
+<figure><img src="../.gitbook/assets/image (162).png" alt=""><figcaption></figcaption></figure>
+
+5.  Si necesitamos cargar un producto que no figuraba en el listado, lo hacemos manualmente:\
+    CODIGO: Lo podemos ingresar manualmente o buscarlo con F6.\
+    DEPOSITO: El número de mi sucursal tambien se puede buscar con F6.\
+    CANTIDAD: La cantidad real que tengo en sistema<br>
+
+    <figure><img src="../.gitbook/assets/image (163).png" alt="" width="509"><figcaption></figcaption></figure>
+
+
+
+6. Con Escape confirmamos el control de stock.
+
+<figure><img src="../.gitbook/assets/image (164).png" alt="" width="231"><figcaption></figcaption></figure>
+
+✅ Este control se va a guardar en la cola de impresión, hay que descargarlo y pasarlo a Caro y/o Ale de Pedidos para poder hacer los ajustes.
+
+{% hint style="warning" %}
+Apenas terminamos de generar el control de Stock pasarlo en el momento, para que si vendemos algo en el transcurso, no se modifiquen las cantidades.
+{% endhint %}
+
+7. **Una vez que nos dan el ok de que se concilio el control de stock, chequear al menos 3 productos para ver si se arreglo como solicitamos!!**

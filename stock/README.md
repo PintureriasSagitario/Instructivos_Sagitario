@@ -6,7 +6,9 @@ description: Todo lo relacionado con el inventario y la recepción de mercaderí
 
 **📌 En esta sección encontrás:**
 
-[**Control de Stock** ](control-stock.md)— Descargá el Excel y comparalo con el stock físico de la sucursal.
+[**Control de Stock - Por Proveedor**](control-stock.md) — Descargá el Excel y comparalo con el stock físico de la sucursal. Filtrado por Proveedor/Fabrica
+
+[**Control de Stock - Productos en Negativo**](control-stock-1.md) — Descargá el Excel y arreglar los productos que figuran en negativo.
 
 [**Recepción de Fábrica**](recepcion-fabrica.md) — Cargá los pedidos que llegan de proveedores.
 

@@ -52,7 +52,7 @@
     * [8. Registro de Gastos](cierre-de-caja/arqueo-cierre/8-registro-gastos.md)
 * [📦 STOCK](stock/README.md)
   * [Control de Stock - Por Proveedor](stock/control-stock.md)
-  * [Copy of Control de Stock](stock/control-stock-1.md)
+  * [Control de Stock - Productos en negativo](stock/control-stock-1.md)
   * [Recepción Pedidos de Fábrica](stock/recepcion-fabrica.md)
   * [Transferencia entre Locales](stock/transferencia-entre-locales.md)
   * [Recepción de Locales](stock/recepcion-locales.md)
