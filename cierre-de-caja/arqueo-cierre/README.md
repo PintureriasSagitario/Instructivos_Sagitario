@@ -23,3 +23,6 @@ Este proceso es **obligatorio al cierre de cada sucursal**. Controlá todos los 
 7️⃣ [**Depósitos Bancarios**](6-depositos-bancarios.md) — Si fuiste al banco ese día
 
 8️⃣ [**Registro de Gastos**](8-registro-gastos.md) — Si hubo gastos del día
+
+9️⃣ [**Envio de Cajas**](9.-envio-de-cajas.md) — Como enviar la documentación
+
