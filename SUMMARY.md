@@ -20,6 +20,7 @@
     * [Nota de Crédito desde Ticket](facturacion/tickets/nota-credito/README.md)
       * [📌 Nota de crédito parcial.](facturacion/tickets/nota-credito/nota-de-credito-parcial..md)
       * [📌 Reversión Total](facturacion/tickets/nota-credito/reversion-total.md)
+      * [📌 Conversión](facturacion/tickets/nota-credito/conversion.md)
   * [Recibos & Pagos](facturacion/recibos-y-pagos/README.md)
     * [Recibos](facturacion/recibos-y-pagos/recibos.md)
     * [Pago en Dólares](facturacion/recibos-y-pagos/pago-dolares.md)
