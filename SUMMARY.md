@@ -50,6 +50,7 @@
     * [6. Transferencia entre Cajas](cierre-de-caja/arqueo-cierre/5-transferencia-cajas.md)
     * [7. Depósitos Bancarios](cierre-de-caja/arqueo-cierre/6-depositos-bancarios.md)
     * [8. Registro de Gastos](cierre-de-caja/arqueo-cierre/8-registro-gastos.md)
+    * [9. Envio de Cajas](cierre-de-caja/arqueo-cierre/9.-envio-de-cajas.md)
 * [📦 STOCK](stock/README.md)
   * [Control de Stock - Por Proveedor](stock/control-stock.md)
   * [Control de Stock - Productos en negativo](stock/control-stock-1.md)
