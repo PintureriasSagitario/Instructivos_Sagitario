@@ -21,7 +21,7 @@ Si no sabemos el Ticket, con F6 podemos buscar el cliente y el rango de fecha en
 
 <figure><img src="../../../.gitbook/assets/image (14) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
-* Una vez que completamos la cantidad, le damos enter. Y nos aparece este cuadro. Le damos aceptar.
+* Una vez que seleccionamos el ticket, le damos enter. Y nos aparece este cuadro. Le damos aceptar.
 
 <figure><img src="../../../.gitbook/assets/image (20) (1).png" alt="" width="234"><figcaption></figcaption></figure>
 
