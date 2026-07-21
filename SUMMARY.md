@@ -25,7 +25,7 @@
     * [Recibos](facturacion/recibos-y-pagos/recibos.md)
     * [Pago en Dólares](facturacion/recibos-y-pagos/pago-dolares.md)
     * [Cobro con MP - Integrado](facturacion/recibos-y-pagos/cobro-con-mercado-pago-integrado.md)
-    * [Cobro Cuenta DNI](facturacion/recibos-y-pagos/cobro-cuenta-dni.md)
+    * [Cobro Cuenta DNI - Integrado](facturacion/recibos-y-pagos/cobro-cuenta-dni-integrado.md)
     * [Anulación Cupón - Lapos Integrado](facturacion/recibos-y-pagos/anulacion-cupon-lapos.md)
     * [Cómo enviar un comprobante de pago.](facturacion/recibos-y-pagos/anulacion-cupon-lapos-1.md)
   * [Reimpresión de Comprobantes](facturacion/reimpresion-de-comprobantes/README.md)
