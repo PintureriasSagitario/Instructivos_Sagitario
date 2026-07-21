@@ -1,8 +1,8 @@
 ---
-description: Cobro con QR y tarjetas desde el Lapos de MP
+description: Cobro con QR y tarjetas desde el Lapos de Mercado Pago
 ---
 
-# Cobro con Mercado Pago - Integrado
+# Cobro con MP - Integrado
 
 * Cargá el ticket como de costumbre. Cuando llegues a la parte de **pagos**, seguí estos pasos:
 
