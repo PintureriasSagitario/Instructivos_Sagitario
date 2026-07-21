@@ -8,7 +8,7 @@ description: >-
 
 Puede ser que vaya retirando de a poco, en otra sucursal o que el pedido lo tenemos que entregar en su domicilio.
 
-📌 Las Facturas no mueven el stock hasta que no se le da [despacho](Despacho%20NDV%20343b06ef75928077b4d1d07e588e818d.md) con un remito.
+📌 Las Facturas no mueven el stock hasta que no se le da [despacho](https://github.com/PintureriasSagitario/Instructivos_Sagitario/blob/main/facturacion/nota-de-venta/Despacho%20NDV%20343b06ef75928077b4d1d07e588e818d.md) con un remito.
 
 1. Hay que hacer una nota de venta, desde Ventas - Pedidos - Ingreso de nota de venta.
 

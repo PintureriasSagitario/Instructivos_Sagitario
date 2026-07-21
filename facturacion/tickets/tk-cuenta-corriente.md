@@ -12,7 +12,7 @@ Esta forma se usa para cuando:
 * Cuando el cliente tiene <mark style="color:$warning;">**cuenta corriente autorizada**</mark> para pagar luego de pasados cierta cantidad de dias ya estipulados
 * Cuando hay un <mark style="color:$warning;">**saldo en la cuenta**</mark> del cliente y es necesario tomar para poder descontar o sumar ese total tambien.
 
-1. Se carga el ticket normalmente como vimos en el [Instructivo de Ticket](Ticket%20333b06ef759280398cb6d2611b25f830.md).
+1. Se carga el ticket normalmente como vimos en el [Instructivo de Ticket](https://github.com/PintureriasSagitario/Instructivos_Sagitario/blob/main/facturacion/tickets/Ticket%20333b06ef759280398cb6d2611b25f830.md).
 
 <img src="../../.gitbook/assets/TK_a_cuenta_corriente__image.png" alt="image.png" width="563">
 
