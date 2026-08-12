@@ -43,7 +43,7 @@ Ejemplo: cliente con REMITO-FACTURA:
 
 ## Cargar la devolución
 
-### 1 · Ingresar al ítem de devoluciones
+#### 1 · Ingresar al ítem de devoluciones
 
 Ir a **Ventas → Comprobantes → Devoluciones**.
 
@@ -53,13 +53,13 @@ Ingresar el **número de cliente**. En el campo **ACTUALIZA NOTAS DE VTA** coloc
 
 <figure><img src="../../.gitbook/assets/image (202).png" alt="" width="504"><figcaption></figcaption></figure>
 
-### 3 · Volcar la factura
+### 2 · Volcar la factura
 
 **No ingresar los productos manualmente.** Volcar la factura con **CTRL + B**. Se abre la ventana con las facturas: seleccionar con **ENTER** y luego dar **ESC**.
 
 <figure><img src="../../.gitbook/assets/image (203).png" alt="" width="504"><figcaption></figcaption></figure>
 
-### 4 · Confirmar los productos volcados
+### 3 · Confirmar los productos volcados
 
 Aparece la ventana con el producto ya volcado. Confirmar con **ESC**.
 
@@ -67,7 +67,7 @@ Aparece la ventana con el producto ya volcado. Confirmar con **ESC**.
 
 > ⚠️ **Devolución parcial.** Si la factura tiene más de un producto pero solo se devuelven algunos: eliminar el que no corresponde con **F5** o modificar la cantidad, para que en pantalla quede únicamente lo que efectivamente se devolvió.
 
-### 5 · Confirmar la devolución
+### 4 · Confirmar la devolución
 
 Dar **ESC** y confirmar la devolución.
 
@@ -79,7 +79,7 @@ El autómata genera un recibo junto con la venta. Al hacer la devolución ese re
 
 Son dos partes: primero se desimputa la factura y después se anula el recibo.
 
-### 6 · Desimputar la factura del recibo
+### 5 · Desimputar la factura del recibo
 
 Ir a **Ventas → Clientes → Historia de clientes**. Pararse sobre el recibo a eliminar y apretar **F8**: se abre una ventana con las facturas imputadas. Sobre la factura, apretar **F8** de nuevo.
 
@@ -89,7 +89,7 @@ Va a pedir la contraseña para desimputar. Es "45"**.** Dar **ENTER** y confirma
 
 <figure><img src="../../.gitbook/assets/image (206).png" alt="" width="563"><figcaption></figcaption></figure>
 
-### 7 · Anular el recibo
+### 6 · Anular el recibo
 
 Ir a **Ventas → Comprobantes → Anulaciones**. Colocar el número de cliente y la fecha: se abre una ventana con todos los comprobantes. Dar **ENTER** sobre el recibo que se quiere eliminar.
 

@@ -73,3 +73,4 @@
 * [ÁREA MERCADO LIBRE](procesos-mercado-libre/area-mercado-libre/README.md)
   * [Circuitos y responsables:](procesos-mercado-libre/area-mercado-libre/circuitos-y-responsables.md)
   * [Devolución / Nota de Crédito:](procesos-mercado-libre/area-mercado-libre/devolucion-nota-de-credito.md)
+  * [Refacturar de Factura A a Factura B:](procesos-mercado-libre/area-mercado-libre/refacturar-de-factura-a-a-factura-b.md)
