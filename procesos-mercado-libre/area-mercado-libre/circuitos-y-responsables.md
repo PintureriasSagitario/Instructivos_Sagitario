@@ -32,7 +32,7 @@ Desde que se factura la venta hasta que Mercado Libre retira los bultos de la co
 
 Arranca en el depósito con la mercadería física y termina con la recepción en el sistema. Participan tres personas.
 
-<table><thead><tr><th width="97">Paso</th><th>Qué se hace</th><th>Responsable</th></tr></thead><tbody><tr><td>1</td><td>Recibe la devolución con las etiquetas de venta, verifica el estado y transfiere al Dep 28 o al Dep 50</td><td><strong>Nahuel Richard</strong></td></tr><tr><td>2</td><td>Fotografía las etiquetas ya clasificadas e informa lo recibido a Francisco y a Natalia</td><td><strong>Nahuel Richard</strong></td></tr><tr><td>3</td><td>Genera la devolución (NC) y elimina el recibo del autómata</td><td><strong>Francisco Peña</strong></td></tr><tr><td>4</td><td>Recepciona en el depósito donde transfirió Nahuel, el 28 o el 50</td><td><strong>Natalia Riado</strong></td></tr></tbody></table>
+<table><thead><tr><th width="97">Paso</th><th>Qué se hace</th><th>Responsable</th></tr></thead><tbody><tr><td>1</td><td>Recibe la devolución con las etiquetas de venta, verifica el estado y transfiere al Dep 28 o al Dep 50</td><td><strong>Nahuel Richard</strong></td></tr><tr><td>2</td><td>Fotografía las etiquetas ya clasificadas e informa lo recibido por un grupo de wspp y a Natalia.</td><td><strong>Nahuel Richard</strong></td></tr><tr><td>3</td><td>Genera la devolución (NC) y elimina el recibo del autómata</td><td><strong>Cristian,Fernanda y Carmen</strong></td></tr><tr><td>4</td><td>Recepciona en el depósito donde transfirió Nahuel, el 28 o el 50</td><td><strong>Natalia Riado</strong></td></tr></tbody></table>
 
 **La bifurcación:** buen estado → Dep 28 · mal estado → Dep 50 con usuario DEVOLUCI. Se decide en el depósito, no en el sistema.
 
