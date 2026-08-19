@@ -76,6 +76,7 @@
   * [Despacho de Productos ML](procesos-mercado-libre/area-mercado-libre/despacho-de-productos-ml.md)
   * [Devolución / Nota de Crédito:](procesos-mercado-libre/area-mercado-libre/devolucion-nota-de-credito.md)
   * [Transferencia del Depósito 32 al 28 o al 50](procesos-mercado-libre/area-mercado-libre/transferencia-del-deposito-32-al-28-o-al-50.md)
+  * [Recepción de Depósito 32](procesos-mercado-libre/area-mercado-libre/recepcion-de-deposito-32.md)
   * [Transferencia deposito Full](procesos-mercado-libre/area-mercado-libre/transferencia-deposito-full.md)
   * [Query de Percepciones Pendientes](procesos-mercado-libre/area-mercado-libre/query-de-percepciones-pendientes.md)
   * [Refacturar de Fac.A a Fac.B:](procesos-mercado-libre/area-mercado-libre/refacturar-de-fac.a-a-fac.b.md)

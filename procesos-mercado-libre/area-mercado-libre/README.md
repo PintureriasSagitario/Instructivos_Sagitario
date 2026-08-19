@@ -1,4 +1,4 @@
-# ÁREA MERCADO LIBRE
+# Área Mercado Libre
 
 #### 👇 Instructivos:
 
@@ -11,6 +11,8 @@
 ↩️ [**Devoluciones y notas de crédito:**](devolucion-nota-de-credito.md) Carga de la devolución en Presea, eliminación del recibo del autómata y caso de cancelación.
 
 📥 [**Transferencia del Depósito 32 al 28 o al 50:**](transferencia-del-deposito-32-al-28-o-al-50.md) Clasificación de la mercadería devuelta y envío al depósito que corresponda.
+
+[📩 **Recepción en el Depósito 32:** ](recepcion-de-deposito-32.md)Recepción de las ventas de Mercado Libre que se despacharon desde otras sucursales.
 
 📦 [**Transferencia al Depósito Full:**](transferencia-deposito-full.md) Envío de mercadería al depósito 332 FULL.
 
