@@ -10,6 +10,8 @@
 
 ↩️ [**Devoluciones y notas de crédito:**](devolucion-nota-de-credito.md) Carga de la devolución en Presea, eliminación del recibo del autómata y caso de cancelación.
 
+📥 [**Transferencia del Depósito 32 al 28 o al 50:**](transferencia-del-deposito-32-al-28-o-al-50.md) Clasificación de la mercadería devuelta y envío al depósito que corresponda.
+
 📦 [**Transferencia al Depósito Full:**](transferencia-deposito-full.md) Envío de mercadería al depósito 332 FULL.
 
 🔎 [**Query de percepciones pendientes:**](query-de-percepciones-pendientes.md) Detectar qué facturas A quedaron con percepciones en deuda.
