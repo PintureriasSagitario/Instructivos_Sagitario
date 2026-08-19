@@ -1,3 +1,10 @@
+---
+description: >-
+  🔒 Sección de uso interno del equipo de Mercado Libre Si trabajás en una
+  sucursal, lo tuyo está en el menú principal.
+hidden: true
+---
+
 # Área Mercado Libre
 
 #### 👇 Instructivos:

@@ -101,3 +101,64 @@ Una misma persona puede cubrir más de un canal, pero cada casillero necesita un
 ### 🔎 Control diario
 
 **Verificar todos los días que el autómata haya facturado correctamente.** Responsable _a asignar_.
+
+💡 **Un solo responsable por paso.** Cuando una tarea la ejecutan dos personas según el día, uno de los dos responde por que esté hecha.
+
+***
+
+### 1 · Facturación
+
+Desde que se factura la venta hasta que la mercadería queda transferida al Depósito 32.
+
+<table><thead><tr><th width="90">Paso</th><th width="358">Qué se hace</th><th>Responsable</th></tr></thead><tbody><tr><td>1</td><td>Factura la venta (recibo, NV, remito-factura)</td><td>Autómata</td></tr><tr><td>2</td><td>Completa la planilla de despachos</td><td>Depósito Hudson</td></tr><tr><td>3</td><td>Transfiere 28 → 32 escaneando los productos con lector de barras</td><td><strong>Andrea</strong></td></tr></tbody></table>
+
+**No se recepciona en el Dep 32.** El circuito termina en la transferencia.
+
+***
+
+### 2 · Devoluciones
+
+Desde la nota de crédito al cliente hasta la recepción en el depósito.
+
+<table><thead><tr><th width="107">Paso</th><th width="326">Qué se hace</th><th>Responsable</th></tr></thead><tbody><tr><td>1</td><td>Genera la devolución (NC) y elimina el recibo del autómata</td><td><strong>Cristian Ortiz</strong></td></tr><tr><td>2</td><td>Revisa el estado y transfiere al Dep 28 o al Dep 50</td><td><strong>Cristian Ortiz</strong></td></tr><tr><td>3a</td><td>Recepciona las transferencias al Dep 28</td><td><strong>Natalia Riado</strong></td></tr><tr><td>3b</td><td>Recepciona en el Dep 50 con usuario DEVOLUCI</td><td><strong>Natalia Riado</strong></td></tr></tbody></table>
+
+**La bifurcación:** buen estado → Dep 28 · mal estado → Dep 50.
+
+Cristian va a Hudson dos veces por semana; esos días hace las devoluciones y las transferencias. **Las devoluciones que llegan el resto de la semana esperan** hasta su próximo día en Hudson.
+
+El control físico de lo que entra quedó dentro de la recepción, ya no es un paso aparte.
+
+👉 [Devoluciones y notas de crédito](devolucion-nota-de-credito.md)
+
+***
+
+### 3 · Envio a Deposito Full
+
+<table><thead><tr><th width="88">Paso</th><th width="362">Qué se hace</th><th>Responsable</th></tr></thead><tbody><tr><td>1</td><td>Transfiere al Dep 332 lo retirado de Mercado Libre</td><td><strong>Natalia Riado</strong></td></tr><tr><td>2</td><td>Verifica el ingreso a Full y ajusta si falta algo</td><td><strong>Francisco Peña</strong></td></tr></tbody></table>
+
+👉 Verificación del ingreso a Full
+
+***
+
+### 4 · Refacturar de Factura A a Factura B
+
+Anula la facturación **sin mover el stock**, porque el producto ya fue entregado y lo único que hay que corregir es el tipo de comprobante.
+
+<table><thead><tr><th width="331">Qué se hace</th><th>Responsable</th></tr></thead><tbody><tr><td>Todo el circuito, de la nota de crédito a la factura B</td><td><strong>Cristian Ortiz</strong></td></tr></tbody></table>
+
+👉 Refacturar de Factura A a Factura B
+
+***
+
+### 📞 Consultas y reclamos de clientes
+
+Cobertura por franja horaria fija.
+
+| Canal                                  | Mañana                     | Tarde      |
+| -------------------------------------- | -------------------------- | ---------- |
+| Trends, Mercado Libre y redes sociales | **Fernanda**               | **Carmen** |
+| Página web                             | **Nahuel Richar y Germán** |            |
+
+Fernanda y Carmen quedan cien por ciento afectadas a responder consultas de Trends, Mercado Libre y redes sociales.
+
+Francos y ausencias: se van turnando entre ellos. Lo diagrama Nicolás.
