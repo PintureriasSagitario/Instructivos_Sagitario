@@ -70,7 +70,7 @@
 
 ## Procesos Mercado Libre
 
-* [ÁREA MERCADO LIBRE](procesos-mercado-libre/area-mercado-libre/README.md)
+* [Área Mercado Libre](procesos-mercado-libre/area-mercado-libre/README.md)
   * [Circuitos y responsables:](procesos-mercado-libre/area-mercado-libre/circuitos-y-responsables.md)
   * [Control de NV pendientes de facturar.](procesos-mercado-libre/area-mercado-libre/control-de-nv-pendientes-de-facturar..md)
   * [Despacho de Productos ML](procesos-mercado-libre/area-mercado-libre/despacho-de-productos-ml.md)
