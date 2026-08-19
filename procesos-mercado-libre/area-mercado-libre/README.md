@@ -4,6 +4,8 @@
 
 🗺️ [**Circuitos y responsables:**](circuitos-y-responsables.md) Los cinco circuitos del área y quién responde por cada paso.
 
+[⏰ **NV pendientes de facturar:**](control-de-nv-pendientes-de-facturar..md) Control diario de que el autómata haya facturado todo, y qué hacer cuando algo quedó pendiente.
+
 📤 [**Despachos de Productos ML:**](despacho-de-productos-ml.md) Preparación del despacho diario, escaneando los productos y controlando contra el listado de ventas.
 
 ↩️ [**Devoluciones y notas de crédito:**](devolucion-nota-de-credito.md) Carga de la devolución en Presea, eliminación del recibo del autómata y caso de cancelación.
