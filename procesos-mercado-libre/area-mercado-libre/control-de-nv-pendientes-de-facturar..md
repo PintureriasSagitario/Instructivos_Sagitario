@@ -2,7 +2,7 @@
 description: Control de que el autómata haya facturado todo.
 ---
 
-# Control de NV pendientes de facutar.
+# Control de NV pendientes de facturar.
 
 ### ¿Para qué sirve?
 
@@ -12,7 +12,7 @@ Para **corroborar que no haya quedado nada sin facturar**. Devuelve el listado d
 >
 > El control se hace **una hora después de cada corrida**, o sea alrededor de las 14:00 y de las 16:00. **Son dos controles por día, no uno.**
 
-## Paso a paso
+## Paso a paso:
 
 ### 1 · Entrar a la consulta
 
