@@ -32,11 +32,13 @@ Desde que se factura la venta hasta que Mercado Libre retira los bultos de la co
 
 Arranca en el depósito con la mercadería física y termina con la recepción en el sistema. Participan tres personas.
 
-<table><thead><tr><th width="97">Paso</th><th>Qué se hace</th><th>Responsable</th></tr></thead><tbody><tr><td>1</td><td>Recibe la devolución con las etiquetas de venta, verifica el estado y transfiere al Dep 28 o al Dep 50</td><td><strong>Nahuel Richard</strong></td></tr><tr><td>2</td><td>Fotografía las etiquetas ya clasificadas e informa lo recibido por un grupo de wspp y a Natalia.</td><td><strong>Nahuel Richard</strong></td></tr><tr><td>3</td><td>Genera la devolución (NC) y elimina el recibo del autómata</td><td><strong>Cristian,Fernanda y Carmen</strong></td></tr><tr><td>4</td><td>Recepciona en el depósito donde transfirió Nahuel, el 28 o el 50</td><td><strong>Natalia Riado</strong></td></tr></tbody></table>
+<table><thead><tr><th width="97">Paso</th><th>Qué se hace</th><th>Responsable</th></tr></thead><tbody><tr><td>1</td><td>Escanea las etiquetas de los productos de devoluciones y genera un Excel sheet donde detalla cuales son las ventas.</td><td><strong>Francisco Pena</strong></td></tr><tr><td>2</td><td>Genera la devolución (NC), elimina el recibo del autómata y completan el Excel sheet con el n° de devolucion de Presea.</td><td><strong>Cristian,Fernanda y Carmen</strong></td></tr><tr><td>3</td><td>Verifica el estado de los productos y transfiere al Dep 28 o al Dep 50 - e informa a Natialia Riado.</td><td><strong>Nahuel Richard</strong></td></tr><tr><td>4</td><td>Recepciona en el depósito donde transfirió Nahuel, el 28 o el 50</td><td><strong>Natalia Riado</strong></td></tr></tbody></table>
 
 **La bifurcación:** buen estado → Dep 28 · mal estado → Dep 50 con usuario DEVOLUCI. Se decide en el depósito, no en el sistema.
 
-> ⚠️ **El aviso del paso 2 es el disparador.** Francisco y Natalia no pueden avanzar hasta que Nahuel informe lo recibido, así que ese mensaje es parte del circuito y no una cortesía.
+> ⚠️ **Completar el Excel Sheet** tanto por Francisco y los vendedores, es lo que permite llevar un control, de las NC ya realizadas y las que aun estan pendientes.\
+> \
+> ⚠️ **El aviso del paso 3 es importante.** Natalia no pueden avanzar hasta que Nahuel informe lo recibido, así que ese mensaje es parte del circuito.
 
 👉 Devoluciones y notas de crédito
 
@@ -60,13 +62,15 @@ La mercadería que Mercado Libre retira para Full pasa al Depósito 332 y despu�
 
 Para los casos en que el cliente se niega a pagar las percepciones.
 
-<table><thead><tr><th width="103">Paso</th><th>Qué se hace</th><th>Responsable</th></tr></thead><tbody><tr><td>1</td><td>Correr la query de percepciones pendientes y exportar el listado</td><td><em>a asignar</em></td></tr><tr><td>2</td><td>Reclamarle al cliente que abone, con un plazo</td><td><em>a asignar</em></td></tr><tr><td>3</td><td>Si no paga o se niega, refacturar como Factura B</td><td><em>a asignar</em></td></tr></tbody></table>
+<table><thead><tr><th width="103">Paso</th><th>Qué se hace</th><th>Responsable</th></tr></thead><tbody><tr><td>1</td><td>Correr la query de percepciones pendientes y exportar el listado. Actualizar Excel Sheet</td><td><strong>Cristian,Fernanda y Carmen</strong></td></tr><tr><td>2</td><td>Reclamarle al cliente que abone, con un plazo</td><td><strong>Cristian,Fernanda y Carmen</strong></td></tr><tr><td>3</td><td>Si no paga o se niega, refacturar como Factura B</td><td><strong>Cristian,Fernanda y Carmen</strong></td></tr><tr><td>4</td><td>Anotar en Excel Sheet, Fecha de reclamo, quien lo reclamo y si fue abonado o refacturado.</td><td><strong>Cristian,Fernanda y Carmen</strong></td></tr></tbody></table>
 
-> ⚠️ **Refacturar es el último recurso, no el paso siguiente.** Primero se le reclama al cliente. Si paga, la factura A queda como está.
+> ⚠️ **Refacturar es el último recurso, no el paso siguiente.** Primero se le reclama al cliente. Si paga, la factura A queda como está.\
+> \
+> ⚠️ **Completar el Excel Sheet**, es lo que permite llevar un control, de los reclamos ya realizados, la refacturación o si el cliente ya abono.
 
 **Cambio de fondo:** a partir de la implementación de este circuito, **las ventas del día se facturan en el día**. Ya no se factura al día siguiente.
 
-👉 Query de percepciones pendientes · Refacturar de Factura A a Factura B
+👉 [Query de percepciones pendientes · Refacturar de Factura A a Factura B](query-de-percepciones-pendientes.md)
 
 ***
 
@@ -76,9 +80,9 @@ La venta se cancela y la mercadería todavía no salió de Hudson. La devolució
 
 <table><thead><tr><th width="104">Paso</th><th width="280">Qué se hace</th><th>Responsable</th></tr></thead><tbody><tr><td>1</td><td>El recibo y el remito-factura se generan automáticamente</td><td>Autómata</td></tr><tr><td>2</td><td>Hace la devolución en Presea</td><td><em>a asignar</em></td></tr><tr><td>3</td><td>Si ya se había transferido del 28 al 32, transfiere del 32 al 28</td><td><em>a asignar</em></td></tr></tbody></table>
 
-> ⚠️ **Si no se había hecho la transferencia de ida, no hay nada más que hacer.** Transferir del 32 al 28 sin que se hubiera hecho la ida genera una diferencia de stock en los dos depósitos.
+> ⚠️ **Si no se había hecho la transferencia de ida, no hay nada más que hacer.** Transferir del 32 al 28 sin que se hubiera hecho la ida genera una diferencia de stock en los dos depósitos. Averiguar con Deposito el estado de esta venta.
 
-👉 Está al final de Devoluciones y notas de crédito
+👉 [Está al final de Devoluciones y notas de crédito](devolucion-nota-de-credito.md)
 
 ***
 
@@ -94,71 +98,12 @@ Cobertura por horario, a asignar en cada canal.
 | Página web                            | _a asignar_ | _a asignar_ |
 | WhatsApp de reclamos                  | _a asignar_ | _a asignar_ |
 
-Una misma persona puede cubrir más de un canal, pero cada casillero necesita un nombre.
+Una misma persona puede cubrir más de un canal.
 
 ***
 
 ### 🔎 Control diario
 
-**Verificar todos los días que el autómata haya facturado correctamente.** Responsable _a asignar_.
+[**Verificar todos los días que el autómata haya facturado correctamente.** ](control-de-nv-pendientes-de-facturar..md)
 
 💡 **Un solo responsable por paso.** Cuando una tarea la ejecutan dos personas según el día, uno de los dos responde por que esté hecha.
-
-***
-
-### 1 · Facturación
-
-Desde que se factura la venta hasta que la mercadería queda transferida al Depósito 32.
-
-<table><thead><tr><th width="90">Paso</th><th width="358">Qué se hace</th><th>Responsable</th></tr></thead><tbody><tr><td>1</td><td>Factura la venta (recibo, NV, remito-factura)</td><td>Autómata</td></tr><tr><td>2</td><td>Completa la planilla de despachos</td><td>Depósito Hudson</td></tr><tr><td>3</td><td>Transfiere 28 → 32 escaneando los productos con lector de barras</td><td><strong>Andrea</strong></td></tr></tbody></table>
-
-**No se recepciona en el Dep 32.** El circuito termina en la transferencia.
-
-***
-
-### 2 · Devoluciones
-
-Desde la nota de crédito al cliente hasta la recepción en el depósito.
-
-<table><thead><tr><th width="107">Paso</th><th width="326">Qué se hace</th><th>Responsable</th></tr></thead><tbody><tr><td>1</td><td>Genera la devolución (NC) y elimina el recibo del autómata</td><td><strong>Cristian Ortiz</strong></td></tr><tr><td>2</td><td>Revisa el estado y transfiere al Dep 28 o al Dep 50</td><td><strong>Cristian Ortiz</strong></td></tr><tr><td>3a</td><td>Recepciona las transferencias al Dep 28</td><td><strong>Natalia Riado</strong></td></tr><tr><td>3b</td><td>Recepciona en el Dep 50 con usuario DEVOLUCI</td><td><strong>Natalia Riado</strong></td></tr></tbody></table>
-
-**La bifurcación:** buen estado → Dep 28 · mal estado → Dep 50.
-
-Cristian va a Hudson dos veces por semana; esos días hace las devoluciones y las transferencias. **Las devoluciones que llegan el resto de la semana esperan** hasta su próximo día en Hudson.
-
-El control físico de lo que entra quedó dentro de la recepción, ya no es un paso aparte.
-
-👉 [Devoluciones y notas de crédito](devolucion-nota-de-credito.md)
-
-***
-
-### 3 · Envio a Deposito Full
-
-<table><thead><tr><th width="88">Paso</th><th width="362">Qué se hace</th><th>Responsable</th></tr></thead><tbody><tr><td>1</td><td>Transfiere al Dep 332 lo retirado de Mercado Libre</td><td><strong>Natalia Riado</strong></td></tr><tr><td>2</td><td>Verifica el ingreso a Full y ajusta si falta algo</td><td><strong>Francisco Peña</strong></td></tr></tbody></table>
-
-👉 Verificación del ingreso a Full
-
-***
-
-### 4 · Refacturar de Factura A a Factura B
-
-Anula la facturación **sin mover el stock**, porque el producto ya fue entregado y lo único que hay que corregir es el tipo de comprobante.
-
-<table><thead><tr><th width="331">Qué se hace</th><th>Responsable</th></tr></thead><tbody><tr><td>Todo el circuito, de la nota de crédito a la factura B</td><td><strong>Cristian Ortiz</strong></td></tr></tbody></table>
-
-👉 Refacturar de Factura A a Factura B
-
-***
-
-### 📞 Consultas y reclamos de clientes
-
-Cobertura por franja horaria fija.
-
-| Canal                                  | Mañana                     | Tarde      |
-| -------------------------------------- | -------------------------- | ---------- |
-| Trends, Mercado Libre y redes sociales | **Fernanda**               | **Carmen** |
-| Página web                             | **Nahuel Richar y Germán** |            |
-
-Fernanda y Carmen quedan cien por ciento afectadas a responder consultas de Trends, Mercado Libre y redes sociales.
-
-Francos y ausencias: se van turnando entre ellos. Lo diagrama Nicolás.
