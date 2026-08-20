@@ -24,7 +24,7 @@ Desde que se factura la venta hasta que Mercado Libre retira los bultos de la co
 
 **No se recepciona en el Dep 32.** El circuito termina cuando Mercado Libre retira.
 
-👉 Transferencia de la empresa 28 a la 32
+👉 [Transferencia de la empresa 28 a la 32](despacho-de-productos-ml.md)
 
 ***
 
@@ -40,7 +40,7 @@ Arranca en el depósito con la mercadería física y termina con la recepción e
 > \
 > ⚠️ **El aviso del paso 3 es importante.** Natalia no pueden avanzar hasta que Nahuel informe lo recibido, así que ese mensaje es parte del circuito.
 
-👉 Devoluciones y notas de crédito
+👉 [Devoluciones y notas de crédito](devolucion-nota-de-credito.md)
 
 ***
 
