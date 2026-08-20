@@ -44,21 +44,7 @@ Arranca en el depósito con la mercadería física y termina con la recepción e
 
 ***
 
-### 3 · Circuito Full
-
-La mercadería que Mercado Libre retira para Full pasa al Depósito 332 y después se verifica que haya ingresado.
-
-<table><thead><tr><th width="81">Paso</th><th>Qué se hace</th><th>Responsable</th></tr></thead><tbody><tr><td>1</td><td>Transfiere del Dep 28 al Dep 332 lo que ML retiró para Full, y avisa a Francisco por mail con la transferencia adjunta</td><td><strong>Andrea</strong></td></tr><tr><td>2</td><td>Corrobora en Mercado Libre Full que los productos figuren bien</td><td><strong>Francisco Peña</strong></td></tr><tr><td>3</td><td>Gestiona el regreso al Dep 28 de lo que no está apto para la venta, y desde ahí se clasifica al depósito de devolución si corresponde</td><td><strong>Francisco Peña</strong></td></tr></tbody></table>
-
-**La facturación de las ventas Full** —nota de venta, recibo y remito-factura— la genera el **autómata**, igual que en el circuito de facturación.
-
-> 💡 **El mail con la transferencia adjunta** es lo que le permite a Francisco controlar contra algo. Sin ese adjunto, el paso 2 no se puede hacer.
-
-👉 Transferencia al Depósito Full · Verificación del ingreso a Full
-
-***
-
-### 4 · Refacturar de Factura A a Factura B
+### 3 · Refacturar de Factura A a Factura B
 
 Para los casos en que el cliente se niega a pagar las percepciones.
 
@@ -70,11 +56,11 @@ Para los casos en que el cliente se niega a pagar las percepciones.
 
 **Cambio de fondo:** a partir de la implementación de este circuito, **las ventas del día se facturan en el día**. Ya no se factura al día siguiente.
 
-👉 [Query de percepciones pendientes · Refacturar de Factura A a Factura B](query-de-percepciones-pendientes.md)
+👉 [Query de percepciones pendientes ](query-de-percepciones-pendientes.md)· [Refacturar de Factura A a Factura B](refacturar-de-fac.a-a-fac.b.md)
 
 ***
 
-### 5 · Cancelaciones antes del despacho
+### 4 · Cancelaciones antes del despacho
 
 La venta se cancela y la mercadería todavía no salió de Hudson. La devolución se hace siempre; lo único que cambia es si hay que transferir la mercadería de vuelta al Dep 28.
 
@@ -83,6 +69,37 @@ La venta se cancela y la mercadería todavía no salió de Hudson. La devolució
 > ⚠️ **Si no se había hecho la transferencia de ida, no hay nada más que hacer.** Transferir del 32 al 28 sin que se hubiera hecho la ida genera una diferencia de stock en los dos depósitos. Averiguar con Deposito el estado de esta venta.
 
 👉 [Está al final de Devoluciones y notas de crédito](devolucion-nota-de-credito.md)
+
+***
+
+***
+
+### 5 · Despachos desde otras sucursales
+
+Cuando una venta de Mercado Libre se despacha desde una sucursal en lugar del depósito de Hudson.
+
+| Paso | Qué se hace                                              | Responsable        |
+| ---- | -------------------------------------------------------- | ------------------ |
+| 1    | La sucursal entrega la mercadería y transfiere al Dep 32 | **Sucursal**       |
+| 2    | Se recepciona la transferencia en el Dep 32              | **Cristian Ortiz** |
+
+> ⚠️ **Esta es la excepción al "no se recepciona en el Dep 32".** Lo que transfiere Andrea desde el 28 en el despacho diario **no** se recepciona. Lo que llega transferido desde otra sucursal, **sí.**
+
+👉 [Recepción en el Depósito 32](recepcion-de-deposito-32.md)
+
+***
+
+### 6 · Circuito Full
+
+La mercadería que Mercado Libre retira para Full pasa al Depósito 332 y después se verifica que haya ingresado.
+
+<table><thead><tr><th width="81">Paso</th><th>Qué se hace</th><th>Responsable</th></tr></thead><tbody><tr><td>1</td><td>Transfiere del Dep 28 al Dep 332 lo que ML retiró para Full, y avisa a Francisco por mail con la transferencia adjunta</td><td><strong>Andrea</strong></td></tr><tr><td>2</td><td>Corrobora en Mercado Libre Full que los productos figuren bien</td><td><strong>Francisco Peña</strong></td></tr><tr><td>3</td><td>Gestiona el regreso al Dep 28 de lo que no está apto para la venta, y desde ahí se clasifica al depósito de devolución si corresponde</td><td><strong>Francisco Peña</strong></td></tr></tbody></table>
+
+**La facturación de las ventas Full** —nota de venta, recibo y remito-factura— la genera el **autómata**, igual que en el circuito de facturación.
+
+> 💡 **El mail con la transferencia adjunta** es lo que le permite a Francisco controlar contra algo. Sin ese adjunto, el paso 2 no se puede hacer.
+
+👉 [Transferencia al Depósito Full · Verificación del ingreso a Full](transferencia-deposito-full.md)
 
 ***
 
