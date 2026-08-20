@@ -1,7 +1,5 @@
 ---
-description: >-
-  🔒 Sección de uso interno del equipo de Mercado Libre Si trabajás en una
-  sucursal, lo tuyo está en el menú principal.
+description: 🔒 Sección de uso interno del equipo de Mercado Libre.
 hidden: true
 ---
 
@@ -9,7 +7,7 @@ hidden: true
 
 #### 👇 Instructivos:
 
-🗺️ [**Circuitos y responsables:**](circuitos-y-responsables.md) Los cinco circuitos del área y quién responde por cada paso.
+🗺️ [**Circuitos y responsables:**](circuitos-y-responsables.md) Los seis circuitos del área y quién responde por cada paso.
 
 [⏰ **NV pendientes de facturar:**](control-de-nv-pendientes-de-facturar..md) Control diario de que el autómata haya facturado todo, y qué hacer cuando algo quedó pendiente.
 
