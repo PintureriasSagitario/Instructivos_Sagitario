@@ -32,7 +32,7 @@ Desde que se factura la venta hasta que Mercado Libre retira los bultos de la co
 
 Arranca en el depósito con la mercadería física y termina con la recepción en el sistema. Participan tres personas.
 
-<table><thead><tr><th width="97">Paso</th><th>Qué se hace</th><th>Responsable</th></tr></thead><tbody><tr><td>1</td><td>Escanea las etiquetas de los productos de devoluciones y genera un Excel sheet donde detalla cuales son las ventas.</td><td><strong>Francisco Pena</strong></td></tr><tr><td>2</td><td>Genera la devolución (NC), elimina el recibo del autómata y completan el Excel sheet con el n° de devolucion de Presea.</td><td><strong>Cristian,Fernanda y Carmen</strong></td></tr><tr><td>3</td><td>Verifica el estado de los productos y transfiere al Dep 28 o al Dep 50 - e informa a Natialia Riado.</td><td><strong>Nahuel Richard</strong></td></tr><tr><td>4</td><td>Recepciona en el depósito donde transfirió Nahuel, el 28 o el 50</td><td><strong>Natalia Riado</strong></td></tr></tbody></table>
+<table><thead><tr><th width="97">Paso</th><th width="253">Qué se hace</th><th>Responsable</th></tr></thead><tbody><tr><td>1</td><td>Escanea las etiquetas de los productos de devoluciones y genera un Excel sheet donde detalla cuales son las ventas.</td><td><strong>Francisco Pena</strong></td></tr><tr><td>2</td><td>Genera la devolución (NC), elimina el recibo del autómata y completan el Excel sheet con el n° de devolucion de Presea.</td><td><em>a asignar</em></td></tr><tr><td>3</td><td>Verifica el estado de los productos y transfiere al Dep 28 o al Dep 50 - e informa a Natialia Riado.</td><td><strong>Nahuel Richard</strong></td></tr><tr><td>4</td><td>Recepciona en el depósito donde transfirió Nahuel, el 28 o el 50</td><td><strong>Natalia Riado</strong></td></tr></tbody></table>
 
 **La bifurcación:** buen estado → Dep 28 · mal estado → Dep 50 con usuario DEVOLUCI. Se decide en el depósito, no en el sistema.
 
@@ -103,7 +103,9 @@ La mercadería que Mercado Libre retira para Full pasa al Depósito 332 y despu�
 
 ***
 
-### 📞 Consultas y reclamos de clientes
+### RESPONSABLES A DEFINIR:
+
+### 1. 📞 Consultas y reclamos de clientes
 
 Cobertura por horario, a asignar en cada canal.
 
@@ -119,8 +121,34 @@ Una misma persona puede cubrir más de un canal.
 
 ***
 
-### 🔎 Control diario
+### 2. 🔎 Control diario de Facturación
 
 [**Verificar todos los días que el autómata haya facturado correctamente.** ](control-de-nv-pendientes-de-facturar..md)
 
-💡 **Un solo responsable por paso.** Cuando una tarea la ejecutan dos personas según el día, uno de los dos responde por que esté hecha.
+💡 **Controlar que no queden notas de venta pendientes, de facturar o de despachar.**
+
+Responsable: _a asginar_
+
+***
+
+### 3. Devoluciones
+
+Genera la devolución (NC), elimina el recibo del autómata y completan el Excel sheet con el n° de devolucion de Presea.\
+\
+Responsable: _a asignar_
+
+***
+
+### 4. Refacturar de A a B
+
+Para los casos en que el cliente se niega a pagar las percepciones.\
+\
+Responsable: _a asignar_
+
+***
+
+### 5. Cuentas Corrientes empresa 32:
+
+Verificar que no quede saldo a favor ni en deuda de los clientes de ML.\
+\
+_&#x52;esponsable: a asignar_
