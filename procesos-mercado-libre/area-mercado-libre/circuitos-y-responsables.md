@@ -103,9 +103,7 @@ La mercadería que Mercado Libre retira para Full pasa al Depósito 332 y despu�
 
 ***
 
-### RESPONSABLES A DEFINIR:
-
-### 1. 📞 Consultas y reclamos de clientes
+### 7. 📞 Consultas y reclamos de clientes
 
 Cobertura por horario, a asignar en cada canal.
 
@@ -121,7 +119,7 @@ Una misma persona puede cubrir más de un canal.
 
 ***
 
-### 2. 🔎 Control diario de Facturación
+### 8. 🔎 Control diario de Facturación
 
 [**Verificar todos los días que el autómata haya facturado correctamente.** ](control-de-nv-pendientes-de-facturar..md)
 
@@ -131,23 +129,7 @@ Responsable: Fernanda Acosta la 1ra tanda de facturación 13:00hs – Carmen Ccz
 
 ***
 
-### 3. Devoluciones
-
-Genera la devolución (NC), elimina el recibo del autómata y completan el Excel sheet con el n° de devolucion de Presea.\
-\
-Responsable: **CARMEN CCZEBOTARONECK**
-
-***
-
-### 4. Refacturar de A a B
-
-Para los casos en que el cliente se niega a pagar las percepciones.\
-\
-Responsable: FERNANDA ACOSTA
-
-***
-
-### 5. Cuentas Corrientes empresa 32:
+### 9. Cuentas Corrientes empresa 32:
 
 Verificar que no quede saldo a favor ni en deuda de los clientes de ML.\
 \
@@ -155,7 +137,7 @@ _&#x52;esponsable:_ CARMEN CCZEBOTARONECK
 
 ***
 
-### 6. Reclamos a Resolver:
+### 10. Reclamos a Resolver:
 
 _Responsable:_ CARMEN CCZEBOTARONECK & FERNANDA ACOSTA
 
