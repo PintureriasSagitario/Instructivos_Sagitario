@@ -9,9 +9,9 @@ hidden: true
 
 🗺️ [**Circuitos y responsables:**](circuitos-y-responsables.md) Los seis circuitos del área y quién responde por cada paso.
 
-:sunny: [**El Día a Día:**](el-dia-a-dia/) Despachos de Productos ML · Transferencia al Depósito Full · NV pendientes de facturar · Recepción en el Depósito 32
+:sunny: [**El Día a Día:**](el-dia-a-dia/) NV pendientes de facturar ·  Despachos de Productos ML  · Recepción en el Depósito 32.
 
-↩️ [**Devoluciónes y Cambios:**](devoluciones-y-cambios/) Devoluciones y notas de crédito · Transferencia del Depósito 32 al 28 o al 50 · Cambio de producto · Devolución de producto en otra sucursal
+↩️ [**Devoluciónes y Cambios:**](devoluciones-y-cambios/) Devoluciones y notas de crédito · Transferencia del Depósito 32 al 28 o al 50 · Cambio de producto · Devolución de producto en otra sucursal.&#x20;
 
 🧾[**Facturación, Percepciones y Cuentas:**](facturacion-percepciones-y-cuentas/) Query de percepciones pendientes · Refacturar de Factura A a Factura B · Rehacer una nota de venta · Consultar Deudas
 
