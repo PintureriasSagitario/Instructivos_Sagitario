@@ -25,19 +25,19 @@ Cuando llega una devolución al depósito, se revisa el estado del producto y se
 
 Ir a **Productos → Depósitos → Transferencias entre locales**.
 
-<figure><img src="../../.gitbook/assets/image (241).png" alt="" width="204"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (241).png" alt="" width="204"><figcaption></figcaption></figure>
 
 #### 2 · El talonario queda en 0
 
 No hay que tocarlo, se deja como está.
 
-<figure><img src="../../.gitbook/assets/image (242).png" alt="" width="242"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (242).png" alt="" width="242"><figcaption></figcaption></figure>
 
 #### 3 · Password del depósito de salida
 
 En **PASSWORD DEPÓSITO DE SALIDA** va el **32**. Y en **COT** va **N**.
 
-<figure><img src="../../.gitbook/assets/image (243).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (243).png" alt="" width="563"><figcaption></figcaption></figure>
 
 > ⚠️ **Verificar que al lado diga 32\_MERCADO LIBRE.** El password va enmascarado, así que no se puede leer lo que se escribió: el nombre que muestra el sistema al lado es la única forma de confirmar que el depósito de salida es el correcto.
 
@@ -45,7 +45,7 @@ En **PASSWORD DEPÓSITO DE SALIDA** va el **32**. Y en **COT** va **N**.
 
 Cargar el o los códigos de producto con su cantidad, y dar **ESC**.
 
-<figure><img src="../../.gitbook/assets/image (244).png" alt="" width="559"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (244).png" alt="" width="559"><figcaption></figcaption></figure>
 
 #### 5 · Empresa depósito de entrada
 
@@ -56,7 +56,7 @@ Acá se define el destino según el estado del producto:
 | **28** | El producto está apto para la venta nuevamente      |
 | **50** | El producto está en mal estado o va para devolución |
 
-<figure><img src="../../.gitbook/assets/image (245).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (245).png" alt="" width="563"><figcaption></figcaption></figure>
 
 #### 6 · Confirmar el depósito
 

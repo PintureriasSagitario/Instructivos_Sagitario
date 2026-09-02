@@ -20,19 +20,19 @@ Es el paso de detección del circuito de refacturación: primero se corre la que
 
 El ícono son las **moneditas amarillas**. Desde ahí ir a la carpeta **Ventas Online** y después a la query **PERCEP.PENDIENTES FAC A**.
 
-<figure><img src="../../.gitbook/assets/image (216).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (216).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### 2 · Ingresar el filtro por fecha
 
 La query pide un rango de fechas antes de mostrar los resultados.
 
-<figure><img src="../../.gitbook/assets/image (217).png" alt="" width="326"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (217).png" alt="" width="326"><figcaption></figcaption></figure>
 
 ### 3 · Leer el listado
 
 Abre el listado de todas las facturas con saldo en deuda, con **fecha, número de cliente, nombre, número de factura e importe**.
 
-<figure><img src="../../.gitbook/assets/image (218).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (218).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ***
 
@@ -42,7 +42,7 @@ Abre el listado de todas las facturas con saldo en deuda, con **fecha, número d
 
 Arriba a la derecha están las **flechitas de exportación**. Conviene exportar siempre, para poder llevar el control de qué facturas ya se refacturaron y cuáles no.
 
-<figure><img src="../../.gitbook/assets/image (219).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (219).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### 5 · Elegir ruta, nombre y formato
 
@@ -52,7 +52,7 @@ En la ventana que se abre hay que completar tres cosas:
 * **El nombre** del archivo, al final de la ruta.
 * **El tipo de archivo**, que siempre es **XLSX**.
 
-<figure><img src="../../.gitbook/assets/image (220).png" alt="" width="293"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (220).png" alt="" width="293"><figcaption></figcaption></figure>
 
 > ⚠️ **Guardarlo siempre en el mismo lugar.** Si se guarda en el escritorio y después se arrastra a la carpeta compartida, tarde o temprano alguno queda solo en el escritorio de una máquina. Conviene **guardarlo directo en la carpeta compartida** y usar siempre el mismo criterio de nombre, por ejemplo `PERCEP_PENDIENTES_AAAA-MM-DD`. Así se puede ver la evolución y no se pisan entre sí.
 

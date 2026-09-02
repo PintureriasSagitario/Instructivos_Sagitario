@@ -18,19 +18,19 @@ Para **corroborar que no haya quedado nada sin facturar**. Devuelve el listado d
 
 Ir a **Ventas → Pedidos → Consultas → NV MELI PENDIENTES FACTURAR**.
 
-<figure><img src="../../.gitbook/assets/image (237).png" alt="" width="247"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (237).png" alt="" width="247"><figcaption></figcaption></figure>
 
 ### 2 · Los filtros
 
 Se pueden dejar como están (Si lo dejamos asi va a traer todo), o filtrar por **desde la fecha / hasta la fecha**.
 
-<figure><img src="../../.gitbook/assets/image (239).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (239).png" alt=""><figcaption></figcaption></figure>
 
 ### 3 · Leer el listado
 
 Abre un listado con todos los **números de nota de venta ya procesada que no se facturaron**.
 
-<figure><img src="../../.gitbook/assets/image (240).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (240).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ***
 
@@ -59,7 +59,7 @@ Si a alguna le cambiaron el vendedor, queda sin facturar.
 
 Ojo que esto **puede ser a propósito**: cuando hay que rehacer una nota de venta por envío a domicilio, se le cambia el vendedor justamente para que el autómata no la facture. En ese caso no hay nada que corregir, hay que facturarla a mano.
 
-👉 [Rehacer una nota de venta](rehacer-una-nota-de-venta.md)
+👉 [Rehacer una nota de venta](../facturacion-percepciones-y-cuentas/rehacer-una-nota-de-venta.md)
 
 </details>
 

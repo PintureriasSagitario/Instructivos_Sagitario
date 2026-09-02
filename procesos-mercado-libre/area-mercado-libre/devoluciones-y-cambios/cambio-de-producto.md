@@ -22,11 +22,11 @@ Ir a **Ventas → Comprobantes → Devoluciones**.
 
 Al volcar la factura aparecen todos sus productos, En este caso vemos que la factura tiene 3 productos, pero solo necesitamos refacturar 1.
 
-<figure><img src="../../.gitbook/assets/image (255).png" alt="" width="557"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (255).png" alt="" width="557"><figcaption></figcaption></figure>
 
 Con **F5** hay que **eliminar los que NO se anulan**, dejando únicamente el que se está cambiando.
 
-<figure><img src="../../.gitbook/assets/image (257).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (257).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Después se graba la devolución.
 
@@ -52,9 +52,11 @@ Se vuelca por número de nota de venta, o se busca por número de cliente con **
 
 En **Despacho completo** va **S**.
 
-<figure><img src="../../.gitbook/assets/image (256).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (256).png" alt=""><figcaption></figcaption></figure>
 
 Y se confirma el remito-factura.
+
+
 
 ***
 

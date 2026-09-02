@@ -26,7 +26,7 @@ Poner **nuestro número de vendedor** y cargar los **datos de entrega**.
 
 Ir al ítem **C/factura y recibo x nro.**
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="187"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt="" width="187"><figcaption></figcaption></figure>
 
 ### 3 · La parte de pagos, según si el recibo ya existe
 
@@ -47,7 +47,7 @@ Acá no se puede modificar: hay que deshacer y volver a hacer.
 
 Anula la facturación existente.
 
-👉 [Devoluciones y notas de crédito](devolucion-nota-de-credito.md)
+👉 [Devoluciones y notas de crédito](../devoluciones-y-cambios/devolucion-nota-de-credito.md)
 
 ### 2 · Generar la nota de venta desde cero
 
@@ -62,6 +62,6 @@ El mismo ítem del Caso A, con el mismo criterio para la parte de pagos.
 
 > 💡 **Esta nota de venta va a aparecer en el control diario.** Al sacarla del vendedor 117, el autómata no la factura, así que va a salir en la consulta de **NV pendientes de facturar** hasta que se facture a mano. Es esperado, no es un error — pero conviene facturarla en el día para que no quede dando vueltas en ese listado.
 >
-> 👉 [NV pendientes de facturar](control-de-nv-pendientes-de-facturar..md)
+> 👉 [NV pendientes de facturar](../el-dia-a-dia/control-de-nv-pendientes-de-facturar..md)
 
 ***

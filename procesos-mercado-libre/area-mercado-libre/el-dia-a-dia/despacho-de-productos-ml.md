@@ -36,13 +36,13 @@ Con las etiquetas y el listado, el depósito arma los pedidos y **lleva los prod
 
 Ir a **Productos → Depósitos → Transf. entre empresas**.
 
-<figure><img src="../../.gitbook/assets/image (210).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (210).png" alt=""><figcaption></figcaption></figure>
 
 ### 4 · Escanear los productos por código de barras
 
 Se escanea cada producto directamente sobre la grilla. **Cada pistoleo carga un renglón**: el escaneo es la carga de la transferencia, no un paso previo.
 
-<figure><img src="../../.gitbook/assets/image (211).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (211).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### 5 · Controlar la grilla contra el listado impreso
 
@@ -66,7 +66,7 @@ Una vez que están todos los productos cargados y controlados, dar **ESC**.
 
 Va a preguntar **EMPRESA DEPÓSITO DE ENTRADA**: va la **32**. Y después el **PASSWORD DEPÓSITO DE ENTRADA**, que también es **32**.
 
-<figure><img src="../../.gitbook/assets/image (212).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (212).png" alt=""><figcaption></figcaption></figure>
 
 > 💡 El password va enmascarado con asteriscos, pero **al lado el sistema muestra el nombre del depósito**. Leerlo antes de confirmar: si no dice el depósito de Mercado Libre, el password está mal.
 

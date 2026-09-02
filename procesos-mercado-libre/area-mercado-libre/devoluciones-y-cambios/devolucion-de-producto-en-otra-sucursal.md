@@ -28,11 +28,11 @@ Ir a **Ventas → Comprobantes → Devoluciones**.
 
 Al volcar la factura aparecen todos sus productos. En el ejemplo la factura tiene **3 productos** y solo hay que devolver **1**: con **F5** se eliminan los que no se devuelven.
 
-<figure><img src="../../.gitbook/assets/image (259).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (259).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Detallar en observaciones qué pasó con ese producto.**
 
-<figure><img src="../../.gitbook/assets/image (260).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (260).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Y se graba la devolución.
 
@@ -40,13 +40,13 @@ Y se graba la devolución.
 
 El recibo original cubría toda la factura. Como una parte se devolvió, hay que **eliminarlo y volver a cargarlo por la diferencia**: lo que el cliente efectivamente pagó y se queda.
 
-<figure><img src="../../.gitbook/assets/image (262).png" alt="" width="407"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (262).png" alt="" width="407"><figcaption></figcaption></figure>
 
 En el ejemplo, el recibo original era por **$174.258,74** y al cliente se le devolvieron **$166.859,74**. El recibo nuevo va por la diferencia.
 
 > ⚠️ **Verificar que la cuenta del cliente quede en $0.** Es la forma de confirmar que el importe del recibo nuevo es el correcto. Si queda saldo a favor o en deuda, el recibo se cargó por un importe equivocado.
 
-<figure><img src="../../.gitbook/assets/image (263).png" alt="" width="436"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (263).png" alt="" width="436"><figcaption></figcaption></figure>
 
 ### 3 · Transferir el producto a la sucursal donde lo devolvió
 
@@ -54,27 +54,27 @@ Cuando se genera la devolución, **el producto ingresa al Depósito 32**. Pero e
 
 Ir a **Productos → Depósitos → Transferencias entre locales**.
 
-<figure><img src="../../.gitbook/assets/image (264).png" alt="" width="192"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (264).png" alt="" width="192"><figcaption></figcaption></figure>
 
 **Password depósito de salida = 32** · **COT = N**
 
 Se abre la ventana para ingresar el código del producto y la cantidad.
 
-<figure><img src="../../.gitbook/assets/image (265).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (265).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Al dar **ESC** pregunta a qué sucursal transferir. Se puede buscar con **F6** — en el ejemplo es **26\_JUNIN** — y pide confirmar que ese depósito sea el correcto.
 
-<figure><img src="../../.gitbook/assets/image (266).png" alt="" width="437"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (266).png" alt="" width="437"><figcaption></figcaption></figure>
 
 Se confirma, y **en observaciones se coloca a qué venta corresponde** esa transferencia.
 
-<figure><img src="../../.gitbook/assets/image (267).png" alt="" width="293"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (267).png" alt="" width="293"><figcaption></figcaption></figure>
 
 ### 4 · Pasarle el remito a la sucursal
 
 La transferencia genera un **REMITO**. Hay que **pasárselo a la sucursal** para que ellos recepcionen esa mercadería.
 
-<figure><img src="../../.gitbook/assets/image (268).png" alt="" width="474"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (268).png" alt="" width="474"><figcaption></figcaption></figure>
 
 > 💡 **El circuito no termina hasta que la sucursal recepciona.** Mientras no lo hagan, la mercadería queda en tránsito y no aparece en el stock de ninguno de los dos.
 

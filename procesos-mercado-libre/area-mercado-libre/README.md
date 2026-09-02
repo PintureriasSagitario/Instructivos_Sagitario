@@ -9,27 +9,13 @@ hidden: true
 
 🗺️ [**Circuitos y responsables:**](circuitos-y-responsables.md) Los seis circuitos del área y quién responde por cada paso.
 
-[⏰ **NV pendientes de facturar:**](control-de-nv-pendientes-de-facturar..md) Control diario de que el autómata haya facturado todo, y qué hacer cuando algo quedó pendiente.
+:sunny: [**El Día a Día:**](el-dia-a-dia/) Despachos de Productos ML · Transferencia al Depósito Full · NV pendientes de facturar · Recepción en el Depósito 32
 
-📤 [**Despachos de Productos ML:**](despacho-de-productos-ml.md) Preparación del despacho diario, escaneando los productos y controlando contra el listado de ventas.
+↩️ [**Devoluciónes y Cambios:**](devoluciones-y-cambios/) Devoluciones y notas de crédito · Transferencia del Depósito 32 al 28 o al 50 · Cambio de producto · Devolución de producto en otra sucursal
 
-↩️ [**Devoluciones y notas de crédito:**](devolucion-nota-de-credito.md) Carga de la devolución en Presea, eliminación del recibo del autómata y caso de cancelación.
-
-📥 [**Transferencia del Depósito 32 al 28 o al 50:**](transferencia-del-deposito-32-al-28-o-al-50.md) Clasificación de la mercadería devuelta y envío al depósito que corresponda.
-
-[📩 **Recepción en el Depósito 32:** ](recepcion-de-deposito-32.md)Recepción de las ventas de Mercado Libre que se despacharon desde otras sucursales. Y que hacer si no coincide el producto.
+🧾[**Facturación, Percepciones y Cuentas:**](facturacion-percepciones-y-cuentas/) Query de percepciones pendientes · Refacturar de Factura A a Factura B · Rehacer una nota de venta · Consultar Deudas
 
 📦 [**Transferencia al Depósito Full:**](transferencia-deposito-full.md) Envío de mercadería al depósito 332 FULL.
-
-🔎 [**Query de percepciones pendientes:**](query-de-percepciones-pendientes.md) Detectar qué facturas A quedaron con percepciones en deuda.
-
-🧾 [**Refacturar de Factura A a Factura B:**](refacturar-de-fac.a-a-fac.b.md) Nota de crédito sin movimiento de stock, cambio del cliente a Consumidor Final y emisión de la B.
-
-🔄 [**Cambio de Producto:**](cambio-de-producto.md) Cuando el producto ya fue facturado y hay que reemplazarlo por otro.
-
-🏪 [**Devolución de producto en otra sucursal:**](devolucion-de-producto-en-otra-sucursal.md) Cuando el cliente devuelve el producto en una sucursal que no es Hudson y quiere que le devuelvan el dinero.
-
-📑 [**Rehacer una nota de venta:**](rehacer-una-nota-de-venta.md) Cuando hay que ingresar una nota de venta desde cero, o rehacer una porque la venta pide envío a domicilio.
 
 #### 📍 Los depósitos:
 
@@ -42,4 +28,4 @@ hidden: true
 
 ***
 
-> 💡 Usá el menú de la izquierda para navegar entre los instructivos.
+> 💡 Si no sabés por dónde empezar, entrá a **Circuitos y responsables**: ahí está el mapa completo del área y de cada paso sale el link al instructivo que corresponde.

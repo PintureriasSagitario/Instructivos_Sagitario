@@ -24,7 +24,7 @@ Desde que se factura la venta hasta que Mercado Libre retira los bultos de la co
 
 **No se recepciona en el Dep 32.** El circuito termina cuando Mercado Libre retira.
 
-👉 [Transferencia de la empresa 28 a la 32](despacho-de-productos-ml.md)
+👉 [Transferencia de la empresa 28 a la 32](el-dia-a-dia/despacho-de-productos-ml.md)
 
 ***
 
@@ -40,7 +40,7 @@ Arranca en el depósito con la mercadería física y termina con la recepción e
 > \
 > ⚠️ **El aviso del paso 3 es importante.** Natalia no pueden avanzar hasta que Nahuel informe lo recibido, así que ese mensaje es parte del circuito.
 
-👉 [Devoluciones y notas de crédito](devolucion-nota-de-credito.md)
+👉 [Devoluciones y notas de crédito](devoluciones-y-cambios/devolucion-nota-de-credito.md)
 
 ***
 
@@ -56,7 +56,7 @@ Para los casos en que el cliente se niega a pagar las percepciones.
 
 **Cambio de fondo:** a partir de la implementación de este circuito, **las ventas del día se facturan en el día**. Ya no se factura al día siguiente.
 
-👉 [Query de percepciones pendientes ](query-de-percepciones-pendientes.md)· [Refacturar de Factura A a Factura B](refacturar-de-fac.a-a-fac.b.md)
+👉 [Query de percepciones pendientes ](facturacion-percepciones-y-cuentas/query-de-percepciones-pendientes.md)· [Refacturar de Factura A a Factura B](facturacion-percepciones-y-cuentas/refacturar-de-fac.a-a-fac.b.md)
 
 ***
 
@@ -68,7 +68,7 @@ La venta se cancela y la mercadería todavía no salió de Hudson. La devolució
 
 > ⚠️ **Si no se había hecho la transferencia de ida, no hay nada más que hacer.** Transferir del 32 al 28 sin que se hubiera hecho la ida genera una diferencia de stock en los dos depósitos. Averiguar con Deposito el estado de esta venta.
 
-👉 [Está al final de Devoluciones y notas de crédito](devolucion-nota-de-credito.md)
+👉 [Está al final de Devoluciones y notas de crédito](devoluciones-y-cambios/devolucion-nota-de-credito.md)
 
 ***
 
@@ -85,7 +85,7 @@ Cuando una venta de Mercado Libre se despacha desde una sucursal en lugar del de
 
 > ⚠️ **Esta es la excepción al "no se recepciona en el Dep 32".** Lo que transfiere Andrea desde el 28 en el despacho diario **no** se recepciona. Lo que llega transferido desde otra sucursal, **sí.**
 
-👉 [Recepción en el Depósito 32](recepcion-de-deposito-32.md)
+👉 [Recepción en el Depósito 32](el-dia-a-dia/recepcion-de-deposito-32.md)
 
 ***
 
@@ -121,7 +121,7 @@ Una misma persona puede cubrir más de un canal.
 
 ### 8. 🔎 Control diario de Facturación
 
-[**Verificar todos los días que el autómata haya facturado correctamente.** ](control-de-nv-pendientes-de-facturar..md)
+[**Verificar todos los días que el autómata haya facturado correctamente.** ](el-dia-a-dia/control-de-nv-pendientes-de-facturar..md)
 
 💡 **Controlar que no queden notas de venta pendientes, de facturar o de despachar.**
 
@@ -147,8 +147,8 @@ _Responsable:_ CARMEN CCZEBOTARONECK & FERNANDA ACOSTA
 
 No son circuitos: son situaciones que aparecen de vez en cuando y tienen su propio instructivo.
 
-| Situación                                                                             |
-| ------------------------------------------------------------------------------------- |
-| [Cambio de producto](cambio-de-producto.md)                                           |
-| [Devolución de producto en otra sucursal](devolucion-de-producto-en-otra-sucursal.md) |
-| [Rehacer una nota de venta por envío a domicilio](rehacer-una-nota-de-venta.md)       |
+| Situación                                                                                                          |
+| ------------------------------------------------------------------------------------------------------------------ |
+| [Cambio de producto](devoluciones-y-cambios/cambio-de-producto.md)                                                 |
+| [Devolución de producto en otra sucursal](devoluciones-y-cambios/devolucion-de-producto-en-otra-sucursal.md)       |
+| [Rehacer una nota de venta por envío a domicilio](facturacion-percepciones-y-cuentas/rehacer-una-nota-de-venta.md) |

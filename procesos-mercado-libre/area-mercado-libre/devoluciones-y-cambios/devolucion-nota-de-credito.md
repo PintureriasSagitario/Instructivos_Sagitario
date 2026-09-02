@@ -33,11 +33,11 @@ Verificar que la mercadería fue efectivamente **despachada**: tiene que tener *
 
 Ejemplo: cliente con REMITO:
 
-<figure><img src="../../.gitbook/assets/image (198).png" alt="" width="469"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (198).png" alt="" width="469"><figcaption></figcaption></figure>
 
 Ejemplo: cliente con REMITO-FACTURA:
 
-<figure><img src="../../.gitbook/assets/image (199).png" alt="" width="469"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (199).png" alt="" width="469"><figcaption></figcaption></figure>
 
 ***
 
@@ -47,23 +47,23 @@ Ejemplo: cliente con REMITO-FACTURA:
 
 Ir a **Ventas → Comprobantes → Devoluciones**.
 
-<figure><img src="../../.gitbook/assets/image (201).png" alt="" width="281"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (201).png" alt="" width="281"><figcaption></figcaption></figure>
 
 Ingresar el **número de cliente**. En el campo **ACTUALIZA NOTAS DE VTA** colocar **N** y dar **ENTER** hasta llegar al ingreso de productos.
 
-<figure><img src="../../.gitbook/assets/image (202).png" alt="" width="504"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (202).png" alt="" width="504"><figcaption></figcaption></figure>
 
 ### 2 · Volcar la factura
 
 **No ingresar los productos manualmente.** Volcar la factura con **CTRL + B**. Se abre la ventana con las facturas: seleccionar con **ENTER** y luego dar **ESC**.
 
-<figure><img src="../../.gitbook/assets/image (203).png" alt="" width="504"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (203).png" alt="" width="504"><figcaption></figcaption></figure>
 
 ### 3 · Confirmar los productos volcados
 
 Aparece la ventana con el producto ya volcado. Confirmar con **ESC**.
 
-<figure><img src="../../.gitbook/assets/image (204).png" alt="" width="504"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (204).png" alt="" width="504"><figcaption></figcaption></figure>
 
 > ⚠️ **Devolución parcial.** Si la factura tiene más de un producto pero solo se devuelven algunos: eliminar el que no corresponde con **F5** o modificar la cantidad, para que en pantalla quede únicamente lo que efectivamente se devolvió.
 
@@ -83,25 +83,25 @@ Son dos partes: primero se desimputa la factura y después se anula el recibo.
 
 Ir a **Ventas → Clientes → Historia de clientes**. Pararse sobre el recibo a eliminar y apretar **F8**: se abre una ventana con las facturas imputadas. Sobre la factura, apretar **F8** de nuevo.
 
-<figure><img src="../../.gitbook/assets/image (205).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (205).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Va a pedir la contraseña para desimputar. Es "45"**.** Dar **ENTER** y confirmar la desimputación.
 
-<figure><img src="../../.gitbook/assets/image (206).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (206).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### 6 · Anular el recibo
 
 Ir a **Ventas → Comprobantes → Anulaciones**. Colocar el número de cliente y la fecha: se abre una ventana con todos los comprobantes. Dar **ENTER** sobre el recibo que se quiere eliminar.
 
-<figure><img src="../../.gitbook/assets/image (207).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (207).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Va a preguntar _"¿deja el recibo pendiente para volver a procesar?"_. Poner **CANCELAR**.
 
-<figure><img src="../../.gitbook/assets/image (208).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (208).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Después aparece el cartel para confirmar la anulación: poner **ACEPTAR**.
 
-<figure><img src="../../.gitbook/assets/image (209).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (209).png" alt="" width="563"><figcaption></figcaption></figure>
 
 > ⚠️ **Si fue una devolución parcial.** Después de anular el recibo hay que **volver a hacerlo**, por el importe que el cliente efectivamente pagó y se queda. Si no, queda sin registrar el cobro de lo que no se devolvió.
 
