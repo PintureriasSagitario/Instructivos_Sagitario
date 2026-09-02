@@ -75,3 +75,35 @@ Si se pone **"Seguir recepcionando"**, vuelve a la ventana anterior para corregi
 <figure><img src="../../.gitbook/assets/image (253).png" alt="" width="465"><figcaption></figcaption></figure>
 
 Confirmamos y la recepción queda grabada.
+
+***
+
+## ¿Y si lo que transfirió la sucursal no es el producto que corresponde a la venta?
+
+### Primero: chequear con la sucursal qué pasó
+
+Hay tres posibilidades y cada una lleva a un camino distinto:
+
+* Se **equivocaron al transferir**, pero al cliente le entregaron bien.
+* Se **equivocaron en la observación**, cuando pusieron el n° de venta. (solo recepcionar en este caso)
+* Le **entregaron mal al cliente**.
+
+> ⚠️ **No avanzar sin esta confirmación.**
+
+### Si se equivocaron en el producto transferido, pero al cliente le dieron bien
+
+1. **Recepcionar** esa mercadería.
+2. **Volver a hacerle la transferencia** a la sucursal, con el producto correcto.
+
+👉[ El procedimiento de la transferencia está en el paso 3 de Devolución de producto en otra sucursal.](devolucion-de-producto-en-otra-sucursal.md#id-3-transferir-el-producto-a-la-sucursal-donde-lo-devolvio)
+
+### Si le entregaron mal al cliente
+
+Lo ideal es **esperar el reclamo del cliente**, o contactarlo para hacer el cambio.
+
+Si el cliente **no devuelve el producto erróneo**:
+
+1. **Recepcionar** el producto.
+2. **Refacturarle al cliente** el producto que efectivamente se le entregó.
+
+👉 [Cambio de producto](cambio-de-producto.md)
