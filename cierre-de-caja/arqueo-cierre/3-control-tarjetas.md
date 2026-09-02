@@ -8,7 +8,7 @@ Controlá que todas las tarjetas hayan sido ingresadas correctamente.
 
 **Ruta:** `Finanzas → Consultas → Listado de Tarjeta`
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Nos abre esta ventana: y con los datos que muestra por defecto, nos va a traer todas las  &#x20;tarjetas de ese dia.
 

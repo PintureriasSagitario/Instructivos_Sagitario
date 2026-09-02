@@ -29,6 +29,8 @@ hidden: true
 
 🏪 [**Devolución de producto en otra sucursal:**](devolucion-de-producto-en-otra-sucursal.md) Cuando el cliente devuelve el producto en una sucursal que no es Hudson y quiere que le devuelvan el dinero.
 
+📑 [**Rehacer una nota de venta:**](rehacer-una-nota-de-venta.md) Cuando hay que ingresar una nota de venta desde cero, o rehacer una porque la venta pide envío a domicilio.
+
 #### 📍 Los depósitos:
 
 | Depósito | Para qué se usa                               |

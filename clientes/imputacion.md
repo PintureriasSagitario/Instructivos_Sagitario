@@ -18,13 +18,15 @@ layout:
     visible: true
   tags:
     visible: true
+  actions:
+    visible: true
 ---
 
 # Imputación
 
 Desde Ventas – Clientes – Cuentas Corrientes – Imputaciones
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="207"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="207"><figcaption></figcaption></figure>
 
 * Buscamos el cliente, le damos aceptar. Y la primera ventana, nos muestra lo que el cliente DEBE, con la barra espaciadora seleccionamos las facturas que vamos a compensar, y nos aparece en la columna ok un signo +.
 

@@ -12,11 +12,11 @@ Este ítem se usa cuando se hizo una factura desde una nota de venta y **SI** se
 
 * Se hace desde Ventas - Comprobantes - Devoluciones:<br>
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Seleccionamos el cliente, y nos va abrir un cuadrito en el cual nos pide que seleccionemos la lista de precios en la cual se hizo la nota de venta.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 💡Podemos ver la vigencia de la lista de precios en las columnas desde/hasta y asi sabemos cual es la que tenemos que usar.

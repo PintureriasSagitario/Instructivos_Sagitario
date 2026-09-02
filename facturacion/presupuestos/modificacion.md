@@ -14,7 +14,7 @@ Desde Ventas - Presupuestos - Modificaciones.
 
 <mark style="color:$warning;">💡Podemos ver la vigencia de la lista de precios en las columnas desde/hasta y asi sabemos cual es la que tenemos que usar.</mark>
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 *   Con ENTER nos van a figurar todos los presupuestos de ese cliente que aún no se facturaron.
 

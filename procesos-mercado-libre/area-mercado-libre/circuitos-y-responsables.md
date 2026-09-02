@@ -18,7 +18,7 @@ description: >-
 
 Desde que se factura la venta hasta que Mercado Libre retira los bultos de la colecta.
 
-<table><thead><tr><th width="93">Paso</th><th>Qué se hace</th><th>Responsable</th></tr></thead><tbody><tr><td>1</td><td>Factura la venta (recibo, nota de venta, remito-factura)</td><td>Autómata</td></tr><tr><td>2</td><td>Imprime las etiquetas y el resumen de productos a preparar (listado de ventas)</td><td><strong>Andrea</strong></td></tr><tr><td>3</td><td>Prepara los pedidos y lleva los productos a escanear</td><td><strong>Depósito Hudson</strong></td></tr><tr><td>4</td><td>Transfiere del Dep 28 al Dep 32 lo escaneado, controlando contra el listado impreso</td><td><strong>Andrea</strong></td></tr><tr><td>5</td><td>Con el remito de transferencia, controla los bultos que se retiran de la colecta</td><td><strong>Nahuel Richard</strong></td></tr></tbody></table>
+<table><thead><tr><th width="93">Paso</th><th>Qué se hace</th><th>Responsable</th></tr></thead><tbody><tr><td>1</td><td>Factura la venta (recibo, nota de venta, remito-factura)</td><td>Autómata</td></tr><tr><td>2</td><td>Imprime las etiquetas y el resumen de productos a preparar (listado de ventas)</td><td><strong>Andrea</strong></td></tr><tr><td>3</td><td>Prepara los pedidos y lleva los productos a escanear</td><td><strong>Depósito Hudson</strong></td></tr><tr><td>4</td><td>Transfiere del Dep 28 al Dep 32 lo escaneado, controlando contra el listado impreso</td><td><strong>Nahuel Richard</strong></td></tr><tr><td>5</td><td>Con el remito de transferencia, controla los bultos que se retiran de la colecta</td><td><strong>Nahuel Richard</strong></td></tr></tbody></table>
 
 > ⚠️ **El doble control del paso 4 es lo que sostiene el circuito.** Lo escaneado tiene que coincidir con el listado impreso en el paso 2. Si no coincide, se detecta antes de transferir.
 
@@ -32,7 +32,7 @@ Desde que se factura la venta hasta que Mercado Libre retira los bultos de la co
 
 Arranca en el depósito con la mercadería física y termina con la recepción en el sistema. Participan tres personas.
 
-<table><thead><tr><th width="97">Paso</th><th width="253">Qué se hace</th><th>Responsable</th></tr></thead><tbody><tr><td>1</td><td>Escanea las etiquetas de los productos de devoluciones y genera un Excel sheet donde detalla cuales son las ventas.</td><td><strong>Francisco Pena</strong></td></tr><tr><td>2</td><td>Genera la devolución (NC), elimina el recibo del autómata y completan el Excel sheet con el n° de devolucion de Presea.</td><td><em>a asignar</em></td></tr><tr><td>3</td><td>Verifica el estado de los productos y transfiere al Dep 28 o al Dep 50 - e informa a Natialia Riado.</td><td><strong>Nahuel Richard</strong></td></tr><tr><td>4</td><td>Recepciona en el depósito donde transfirió Nahuel, el 28 o el 50</td><td><strong>Natalia Riado</strong></td></tr></tbody></table>
+<table><thead><tr><th width="97">Paso</th><th width="253">Qué se hace</th><th>Responsable</th></tr></thead><tbody><tr><td>1</td><td>Escanea las etiquetas de los productos de devoluciones y genera un Excel sheet donde detalla cuales son las ventas.</td><td><strong>Francisco Pena</strong></td></tr><tr><td>2</td><td>Genera la devolución (NC), elimina el recibo del autómata y completan el Excel sheet con el n° de devolucion de Presea.</td><td><strong>Carmen Cczebotaronek</strong></td></tr><tr><td>3</td><td>Verifica el estado de los productos y transfiere al Dep 28 o al Dep 50 - e informa a Natialia Riado.</td><td><strong>Nahuel Richard</strong></td></tr><tr><td>4</td><td>Recepciona en el depósito donde transfirió Nahuel, el 28 o el 50</td><td><strong>Natalia Riado</strong></td></tr></tbody></table>
 
 **La bifurcación:** buen estado → Dep 28 · mal estado → Dep 50 con usuario DEVOLUCI. Se decide en el depósito, no en el sistema.
 
@@ -48,7 +48,7 @@ Arranca en el depósito con la mercadería física y termina con la recepción e
 
 Para los casos en que el cliente se niega a pagar las percepciones.
 
-<table><thead><tr><th width="103">Paso</th><th>Qué se hace</th><th>Responsable</th></tr></thead><tbody><tr><td>1</td><td>Correr la query de percepciones pendientes y exportar el listado. Actualizar Excel Sheet</td><td><strong>Cristian,Fernanda y Carmen</strong></td></tr><tr><td>2</td><td>Reclamarle al cliente que abone, con un plazo</td><td><strong>Cristian,Fernanda y Carmen</strong></td></tr><tr><td>3</td><td>Si no paga o se niega, refacturar como Factura B</td><td><strong>Cristian,Fernanda y Carmen</strong></td></tr><tr><td>4</td><td>Anotar en Excel Sheet, Fecha de reclamo, quien lo reclamo y si fue abonado o refacturado.</td><td><strong>Cristian,Fernanda y Carmen</strong></td></tr></tbody></table>
+<table><thead><tr><th width="103">Paso</th><th>Qué se hace</th><th>Responsable</th></tr></thead><tbody><tr><td>1</td><td>Correr la query de percepciones pendientes y exportar el listado. Actualizar Excel Sheet</td><td><strong>Fernanda Acosta</strong></td></tr><tr><td>2</td><td>Reclamarle al cliente que abone, con un plazo</td><td><strong>Fernanda Acosta</strong></td></tr><tr><td>3</td><td>Si no paga o se niega, refacturar como Factura B</td><td><strong>Fernanda Acosta</strong></td></tr><tr><td>4</td><td>Anotar en Excel Sheet, Fecha de reclamo, quien lo reclamo y si fue abonado o refacturado.</td><td><strong>Fernanda Acosta</strong></td></tr></tbody></table>
 
 > ⚠️ **Refacturar es el último recurso, no el paso siguiente.** Primero se le reclama al cliente. Si paga, la factura A queda como está.\
 > \
@@ -64,7 +64,7 @@ Para los casos en que el cliente se niega a pagar las percepciones.
 
 La venta se cancela y la mercadería todavía no salió de Hudson. La devolución se hace siempre; lo único que cambia es si hay que transferir la mercadería de vuelta al Dep 28.
 
-<table><thead><tr><th width="104">Paso</th><th width="280">Qué se hace</th><th>Responsable</th></tr></thead><tbody><tr><td>1</td><td>El recibo y el remito-factura se generan automáticamente</td><td>Autómata</td></tr><tr><td>2</td><td>Hace la devolución en Presea</td><td><em>a asignar</em></td></tr><tr><td>3</td><td>Si ya se había transferido del 28 al 32, transfiere del 32 al 28</td><td><em>a asignar</em></td></tr></tbody></table>
+<table><thead><tr><th width="104">Paso</th><th width="280">Qué se hace</th><th>Responsable</th></tr></thead><tbody><tr><td>1</td><td>El recibo y el remito-factura se generan automáticamente</td><td>Autómata</td></tr><tr><td>2</td><td>Hace la devolución en Presea</td><td><strong>Cristian Ortiz</strong></td></tr><tr><td>3</td><td>Si ya se había transferido del 28 al 32, transfiere del 32 al 28</td><td><strong>Cristian Ortiz</strong></td></tr></tbody></table>
 
 > ⚠️ **Si no se había hecho la transferencia de ida, no hay nada más que hacer.** Transferir del 32 al 28 sin que se hubiera hecho la ida genera una diferencia de stock en los dos depósitos. Averiguar con Deposito el estado de esta venta.
 
@@ -109,13 +109,13 @@ La mercadería que Mercado Libre retira para Full pasa al Depósito 332 y despu�
 
 Cobertura por horario, a asignar en cada canal.
 
-| Canal                                 | Mañana      | Tarde       |
-| ------------------------------------- | ----------- | ----------- |
-| Real Trends                           | _a asignar_ | _a asignar_ |
-| Mercado Libre                         | _a asignar_ | _a asignar_ |
-| Redes sociales (Instagram y Facebook) | _a asignar_ | _a asignar_ |
-| Página web                            | _a asignar_ | _a asignar_ |
-| WhatsApp de reclamos                  | _a asignar_ | _a asignar_ |
+| Canal                                 | Mañana                  | Tarde                    |
+| ------------------------------------- | ----------------------- | ------------------------ |
+| Real Trends                           | **Cristian - Fernanda** | **Carmen Cczebotaronek** |
+| Mercado Libre                         | **Cristian - Fernanda** | **Carmen Cczebotaronek** |
+| Redes sociales (Instagram y Facebook) | **Cristian - Fernanda** | **Carmen Cczebotaronek** |
+| Página web                            | **German Flores**       |                          |
+| WhatsApp de reclamos                  | **German Flores**       |                          |
 
 Una misma persona puede cubrir más de un canal.
 
@@ -127,7 +127,7 @@ Una misma persona puede cubrir más de un canal.
 
 💡 **Controlar que no queden notas de venta pendientes, de facturar o de despachar.**
 
-Responsable: _a asginar_
+Responsable: Fernanda Acosta la 1ra tanda de facturación 13:00hs – Carmen Cczebotaroneck la 2da Tanda de facturación 16:00hs.
 
 ***
 
@@ -135,7 +135,7 @@ Responsable: _a asginar_
 
 Genera la devolución (NC), elimina el recibo del autómata y completan el Excel sheet con el n° de devolucion de Presea.\
 \
-Responsable: _a asignar_
+Responsable: **CARMEN CCZEBOTARONECK**
 
 ***
 
@@ -143,7 +143,7 @@ Responsable: _a asignar_
 
 Para los casos en que el cliente se niega a pagar las percepciones.\
 \
-Responsable: _a asignar_
+Responsable: FERNANDA ACOSTA
 
 ***
 
@@ -151,4 +151,22 @@ Responsable: _a asignar_
 
 Verificar que no quede saldo a favor ni en deuda de los clientes de ML.\
 \
-_&#x52;esponsable: a asignar_
+_&#x52;esponsable:_ CARMEN CCZEBOTARONECK
+
+***
+
+### 6. Reclamos a Resolver:
+
+_Responsable:_ CARMEN CCZEBOTARONECK & FERNANDA ACOSTA
+
+***
+
+### 🔧 Casos particulares
+
+No son circuitos: son situaciones que aparecen de vez en cuando y tienen su propio instructivo.
+
+| Situación                                                                             |
+| ------------------------------------------------------------------------------------- |
+| [Cambio de producto](cambio-de-producto.md)                                           |
+| [Devolución de producto en otra sucursal](devolucion-de-producto-en-otra-sucursal.md) |
+| [Rehacer una nota de venta por envío a domicilio](rehacer-una-nota-de-venta.md)       |

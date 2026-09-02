@@ -57,6 +57,10 @@ Pasa cuando AFIP está caído. En ese caso hay que seguir el instructivo de erro
 ⚠️ **El autómata solo factura las notas de venta del vendedor 117.** \
 Si a alguna le cambiaron el vendedor, queda sin facturar.
 
+Ojo que esto **puede ser a propósito**: cuando hay que rehacer una nota de venta por envío a domicilio, se le cambia el vendedor justamente para que el autómata no la facture. En ese caso no hay nada que corregir, hay que facturarla a mano.
+
+👉 [Rehacer una nota de venta](rehacer-una-nota-de-venta.md)
+
 </details>
 
 <details>
