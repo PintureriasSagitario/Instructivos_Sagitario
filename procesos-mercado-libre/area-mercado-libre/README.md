@@ -27,6 +27,8 @@ hidden: true
 
 🔄 [**Cambio de Producto:**](cambio-de-producto.md) Cuando el producto ya fue facturado y hay que reemplazarlo por otro.
 
+🏪 [**Devolución de producto en otra sucursal:**](devolucion-de-producto-en-otra-sucursal.md) Cuando el cliente devuelve el producto en una sucursal que no es Hudson y quiere que le devuelvan el dinero.
+
 #### 📍 Los depósitos:
 
 | Depósito | Para qué se usa                               |
