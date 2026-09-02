@@ -80,3 +80,4 @@
   * [Transferencia deposito Full](procesos-mercado-libre/area-mercado-libre/transferencia-deposito-full.md)
   * [Query de Percepciones Pendientes](procesos-mercado-libre/area-mercado-libre/query-de-percepciones-pendientes.md)
   * [Refacturar de Fac.A a Fac.B:](procesos-mercado-libre/area-mercado-libre/refacturar-de-fac.a-a-fac.b.md)
+  * [Cambio de producto](procesos-mercado-libre/area-mercado-libre/cambio-de-producto.md)

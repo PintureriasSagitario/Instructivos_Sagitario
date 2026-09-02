@@ -25,6 +25,8 @@ hidden: true
 
 🧾 [**Refacturar de Factura A a Factura B:**](refacturar-de-fac.a-a-fac.b.md) Nota de crédito sin movimiento de stock, cambio del cliente a Consumidor Final y emisión de la B.
 
+🔄 [**Cambio de Producto:**](cambio-de-producto.md) Cuando el producto ya fue facturado y hay que reemplazarlo por otro.
+
 #### 📍 Los depósitos:
 
 | Depósito | Para qué se usa                               |
