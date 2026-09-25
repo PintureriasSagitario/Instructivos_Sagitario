@@ -13,3 +13,5 @@ description: Todo lo relacionado con la emisión de comprobantes en el sistema P
 [**Recibos y Pagos**](recibos-y-pagos/) — Registrá pagos, dólares y anulaciones de cupones Lapos.
 
 [**Tintométrico**](tintometrico/) — Preparación de colores personalizados para clientes.
+
+[**Acopio**](acopio.md) - Dejar dinero en cuenta y retirar mecaderia despues, respetando la lista de precios.
