@@ -33,6 +33,7 @@
     * [Reimpresión Facturas, Remitos & Recibos](facturacion/reimpresion-de-comprobantes/reimpresion-facturas-remitos-and-recibos.md)
   * [Tintometrico](facturacion/tintometrico/README.md)
     * [Tintométrico](facturacion/tintometrico/tintometrico.md)
+  * [Acopio](facturacion/acopio.md)
 * [📩 NOTA DE VENTA](nota-de-venta/README.md)
   * [Nota de Venta](facturacion/nota-de-venta/nota-de-venta.md)
   * [Consultar Estado](facturacion/nota-de-venta/consultar-estado.md)
