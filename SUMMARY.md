@@ -21,6 +21,7 @@
       * [📌 Nota de crédito parcial.](facturacion/tickets/nota-credito/nota-de-credito-parcial..md)
       * [📌 Reversión Total](facturacion/tickets/nota-credito/reversion-total.md)
       * [📌 Conversión](facturacion/tickets/nota-credito/conversion.md)
+      * [📌 Anulación de cobros con MP Integrado](facturacion/tickets/nota-credito/anulacion-de-cobros-con-mp-integrado.md)
   * [Recibos & Pagos](facturacion/recibos-y-pagos/README.md)
     * [Recibos](facturacion/recibos-y-pagos/recibos.md)
     * [Pago en Dólares](facturacion/recibos-y-pagos/pago-dolares.md)
