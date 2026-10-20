@@ -69,6 +69,7 @@
 * [🦊 PRESEA OFFLINE](presea-offline/README.md)
   * [Subir Tickets](presea-offline/subir-tickets.md)
 * [📞 CONTACTOS & SOPORTE](contactos-and-soporte.md)
+* [💡 Presea: Atajos rápidos del teclado](presea-atajos-rapidos-del-teclado.md)
 
 ## Procesos Mercado Libre
 
