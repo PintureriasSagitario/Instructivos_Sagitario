@@ -1,6 +1,6 @@
 # Table of contents
 
-* [💻 INICIO](README.md)
+* [💻 Manual Operativo — Sistema Presea](README.md)
 * [👥 CLIENTES](clientes/README.md)
   * [Alta Cliente](clientes/alta-cliente.md)
   * [Consultar & Modificar Cliente](clientes/consultar-modificar.md)
