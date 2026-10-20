@@ -6,20 +6,20 @@ description: >-
 
 # 💡 Presea: Atajos rápidos del teclado
 
-| Atajo       | Para qué sirve                                                                           | Desde dónde                          |
-| ----------- | ---------------------------------------------------------------------------------------- | ------------------------------------ |
-| `F7`        | [Alta rápida de cliente](presea-atajos-rapidos-del-teclado.md#alta-rapida-de-cliente-f7) | Ticket / Factura, campo CLIENTE      |
-| `CTRL + L`  | Buscar cliente por CUIT o DNI                                                            | Campo "Desde cliente"                |
-| `F8` x2     | Desimputar un comprobante                                                                | Historia del cliente                 |
-| `CTRL + D`  | Volcar un presupuesto al ticket                                                          | Ticket                               |
-| `ALT + V`   | Ver el comprobante como reporte                                                          | Historia del cliente                 |
-| `F9`        | Ver el comprobante como lista de productos                                               | Historia del cliente                 |
-| `CTRL + F2` | Consulta rápida de cuenta corriente                                                      | Cualquier pantalla                   |
-| `F11`       | Consulta de stock                                                                        | Cualquier pantalla                   |
-| `CTRL + F8` | Generar una nota de crédito                                                              | Ticket, antes de ingresar el cliente |
-| `CTRL + F5` | Pago con lapos Payway integrado                                                          | Ticket, en la parte de pagos         |
-| `CTRL + O`  | Consultar percepciones e impuestos                                                       | Ticket, antes de pasar a pago        |
-| `CTRL + Q`  | Cerrar Presea                                                                            | Cualquier pantalla                   |
+| Atajo       | Para qué sirve                                                                                                           | Desde dónde                          |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------ |
+| `F7`        | [Alta rápida de cliente](presea-atajos-rapidos-del-teclado.md#alta-rapida-de-cliente-f7)                                 | Ticket / Factura, campo CLIENTE      |
+| `CTRL + L`  | [Buscar cliente por CUIT o DNI](presea-atajos-rapidos-del-teclado.md#buscar-cliente-por-cuit-o-dni-ctrl--l)              | Campo "Desde cliente"                |
+| `F8` x2     | [Desimputar un comprobante](presea-atajos-rapidos-del-teclado.md#desimputar-un-comprobante-f8-dos-veces)                 | Historia del cliente                 |
+| `CTRL + D`  | [Volcar un presupuesto al ticket](presea-atajos-rapidos-del-teclado.md#volcar-un-presupuesto-al-ticket-ctrl--d)          | Ticket                               |
+| `ALT + V`   | [Ver el comprobante como reporte](presea-atajos-rapidos-del-teclado.md#ver-el-comprobante-como-reporte-alt--v)           | Historia del cliente                 |
+| `F9`        | [Ver el comprobante como lista de productos](presea-atajos-rapidos-del-teclado.md#ver-el-comprobante-como-lista-f9)      | Historia del cliente                 |
+| `CTRL + F2` | [Consulta rápida de cuenta corriente](presea-atajos-rapidos-del-teclado.md#consulta-rapida-de-cuenta-corriente-ctrl--f2) | Cualquier pantalla                   |
+| `F11`       | [Consulta de stock](presea-atajos-rapidos-del-teclado.md#consulta-de-stock-f11)                                          | Cualquier pantalla                   |
+| `CTRL + F8` | [Generar una nota de crédito](presea-atajos-rapidos-del-teclado.md#generar-una-nota-de-credito-ctrl--f8)                 | Ticket, antes de ingresar el cliente |
+| `CTRL + F5` | [Pago con lapos Payway integrado](presea-atajos-rapidos-del-teclado.md#pago-con-lapos-payway-integrado-ctrl--f5)         | Ticket, en la parte de pagos         |
+| `CTRL + O`  | [Consultar percepciones e impuestos](presea-atajos-rapidos-del-teclado.md#consultar-percepciones-e-impuestos-ctrl--o)    | Ticket, antes de pasar a pago        |
+| `CTRL + Q`  | [Cerrar Presea](presea-atajos-rapidos-del-teclado.md#cerrar-presea-ctrl--q)                                              | Cualquier pantalla                   |
 
 ***
 
