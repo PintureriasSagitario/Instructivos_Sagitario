@@ -32,9 +32,9 @@ Presupuestos, tickets, recibos, notas de venta, cierre de caja y más.
 
 🦊 [**Presea Offline:**](presea-offline/) Lo necesario para operar con Presea Offline.
 
-:telephone\_receiver: [Contactos & Soporte:](contactos-and-soporte.md) Contactá al área correspondiente según el tema.
+💡 [**Atajos Rápidos del teclado:**](presea-atajos-rapidos-del-teclado.md) Los atajos de Presea que más tiempo ahorran en el mostrador
 
-:
+:telephone\_receiver: [**Contactos & Soporte:**](contactos-and-soporte.md) Contactá al área correspondiente según el tema.
 
 ***
 
